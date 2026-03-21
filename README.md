@@ -10,33 +10,27 @@
 
 ---
 
-<img align="right" alt="Backend Dev" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" alt="Backend Dev" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 ### 🖥️ About Me
 
+Hey there! I'm **Sachith Asmadala**, a passionate backend engineer from 🇱🇰 **Sri Lanka** who loves building secure, production-ready systems from the ground up.
+
+I specialize in **Java 21 + Spring Boot 3** backends with clean architecture, JWT-secured REST APIs, and database design using **MySQL & PostgreSQL**. I'm also comfortable in the frontend world with **React & TypeScript**, and I enjoy bridging low-level **C/JNI** native code with modern Java applications.
+
+- 🔭 Currently building **LibraCore** — a production-style library management system
+- 🌱 Deepening skills in **DevOps, CI/CD & containerization**
+- 🤝 Open to **collaborations** and **software engineering internships**
+- ⚡ Fun fact: I've written C code that runs inside a JVM via JNI
+
 ```java
-public class Sachith extends Developer {
-
-    String name     = "Sachith Asmadala";
-    String handle   = "Sachith-02";
-    String location = "Sri Lanka 🇱🇰";
-
-    String[] stack = {
-        "Java 21", "Spring Boot 3", "C",
-        "React", "TypeScript", "MySQL",
-        "Docker", "GitHub Actions"
-    };
-
-    String[] passions = {
-        "Secure REST API Design",
-        "Database Architecture",
-        "DevOps & CI/CD Pipelines",
-        "Native C/JNI Integration"
-    };
-
-    String goal = "Seeking Software Engineering Internship";
-    boolean available = true;
-}
+// What drives me every day
+String[] values = {
+    "Clean Architecture",
+    "Secure API Design",
+    "Continuous Learning",
+    "Ship. Iterate. Improve."
+};
 ```
 
 <br clear="right"/>
@@ -87,56 +81,66 @@ public class Sachith extends Developer {
 ---
 
 <!--PROJECTS_START-->
-### 🚀 Featured Projects
+### 🚀 My Repositories
+
+<!-- Auto-updated by GitHub Actions — do not edit this section manually -->
 
 <div align="center">
 <table>
 <tr>
 <td width="50%">
 
-**🔹 Sachith-02**
-> ✨ Sachith Asmadala  — GitHub Profile README
+**📚 LibraCore**
+> Production-style **Library & Asset Management** backend. Java 21 + Spring Boot 3 + MySQL 8. JWT auth with role-based access, Flyway migrations, native **C/JNI ISBN validation**, and full Docker deployment.
 
- ![Stars](https://img.shields.io/github/stars/Sachith-02/Sachith-02?style=flat-square&color=38bdf8&labelColor=0d1117)
+![Java](https://img.shields.io/badge/-Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![C/JNI](https://img.shields.io/badge/-C%2FJNI-00599C?style=flat-square&logo=c&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sachith-02)
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/LibraCore)
 
 </td>
 <td width="50%">
 
-**🔹 Knowledge-Studio**
-> A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB storage.
+**🌱 Sustain Insight**
+> Full-stack **News Aggregator** — React + Tailwind frontend with Spring Boot + PostgreSQL backend. User personalization, article categorization, and real-time data fetching.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Knowledge-Studio)
+[![Backend](https://img.shields.io/badge/Backend_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---back-end)
+[![Frontend](https://img.shields.io/badge/Frontend_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---front-end)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**🔹 Yahtzee-Retro-Deluxe**
-> A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for learning procedural programming and game logic implementation.
+**🎲 Yahtzee Retro Deluxe**
+> Fully functional **Yahtzee game** in **C** — modular design, game state management, and interactive terminal gameplay. A deep dive into procedural programming.
 
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=38bdf8&labelColor=0d1117)
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
 
 [![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)
 
 </td>
 <td width="50%">
 
-**🔹 LibraCore**
-> LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST API for authentication, catalog and circulation management, uses JWT‑based role security, integrates native C/JNI ISBN validation, and supports Dockerized deployment.
+**📦 More projects auto-load here**
+> This section updates automatically every day via GitHub Actions — any new public repo you push will appear here within 24 hours.
 
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/LibraCore?style=flat-square&color=38bdf8&labelColor=0d1117)
-
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/LibraCore)
+[![All Repos](https://img.shields.io/badge/All_Repositories-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02?tab=repositories)
 
 </td>
 </tr>
 </table>
 </div>
+
 <!--PROJECTS_END-->
 
 ---
@@ -147,9 +151,9 @@ public class Sachith extends Developer {
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=10" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=10&count_private=true" width="48%"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=10" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=10&langs_count=8" width="40%"/>
 
 <br/><br/>
 
@@ -179,6 +183,7 @@ public class Sachith extends Developer {
 
 <br/>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
 
 <br/>
