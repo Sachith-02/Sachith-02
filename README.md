@@ -90,56 +90,79 @@ String[] values = {
 <tr>
 <td width="50%">
 
-**📚 LibraCore**
-> Production-style **Library & Asset Management** backend. Java 21 + Spring Boot 3 + MySQL 8. JWT auth with role-based access, Flyway migrations, native **C/JNI ISBN validation**, and full Docker deployment.
+**🔹 Sachith-02**
+> ✨ Sachith Asmadala  — GitHub Profile README
 
-![Java](https://img.shields.io/badge/-Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![C/JNI](https://img.shields.io/badge/-C%2FJNI-00599C?style=flat-square&logo=c&logoColor=white)
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Sachith-02?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Mar 21, 2026</sub>
 
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/LibraCore)
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sachith-02)
 
 </td>
 <td width="50%">
 
-**🌱 Sustain Insight**
-> Full-stack **News Aggregator** — React + Tailwind frontend with Spring Boot + PostgreSQL backend. User personalization, article categorization, and real-time data fetching.
+**🔹 Knowledge-Studio**
+> A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB storage.
 
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Mar 21, 2026</sub>
 
-[![Backend](https://img.shields.io/badge/Backend_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---back-end)
-[![Frontend](https://img.shields.io/badge/Frontend_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---front-end)
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Knowledge-Studio)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**🎲 Yahtzee Retro Deluxe**
-> Fully functional **Yahtzee game** in **C** — modular design, game state management, and interactive terminal gameplay. A deep dive into procedural programming.
+**🎲 Yahtzee-Retro-Deluxe**
+> A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for learning procedural programming and game logic implementation.
 
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Mar 21, 2026</sub>
 
 [![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)
 
 </td>
 <td width="50%">
 
-**📦 More projects auto-load here**
-> This section updates automatically every day via GitHub Actions — any new public repo you push will appear here within 24 hours.
+**🌱 Sustain-Insight---front-end** *(fork)*
+> (Front End) Full-stack News Aggregator– A collaborative project using React + Tailwind (frontend) and Spring Boot + PostgreSQL (backend) to fetch, categorize, and display news articles with user personalization and saved items.
 
-[![All Repos](https://img.shields.io/badge/All_Repositories-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02?tab=repositories)
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Sustain-Insight---front-end?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Mar 21, 2026</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---front-end)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🌱 Sustain-Insight---back-end** *(fork)*
+> (Back End) Full-stack News Aggregator – A collaborative project using React + Tailwind (frontend) and Spring Boot + PostgreSQL (backend) to fetch, categorize, and display news articles with user personalization and saved items.
+
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Sustain-Insight---back-end?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Mar 21, 2026</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sustain-Insight---back-end)
+
+</td>
+<td width="50%">
+
+**⚙️ LibraCore**
+> LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST API for authentication, catalog and circulation management, uses JWT‑based role security, integrates native C/JNI ISBN validation, and supports Dockerized deployment.
+
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/LibraCore?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Nov 22, 2025</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/LibraCore)
 
 </td>
 </tr>
 </table>
 </div>
+
+<sub align="center">🤖 Auto-updated on 2026-03-21 23:42 UTC · 6 public repos</sub>
 
 <!--PROJECTS_END-->
 
