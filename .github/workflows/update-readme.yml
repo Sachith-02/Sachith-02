@@ -1,0 +1,43 @@
+name: 🔄 Auto-Update README
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Runs every day at midnight UTC — keeps project section fresh
+    - cron: '0 0 * * *'
+  workflow_dispatch: # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: pip install requests
+
+      - name: 🔄 Regenerate README project section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Sachith-02
+        run: python .github/scripts/update_readme.py
+
+      - name: 💾 Commit & push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🤖 Auto-update README with latest repos [skip ci]"
+          git push
