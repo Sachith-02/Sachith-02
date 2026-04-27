@@ -90,11 +90,35 @@ String[] values = {
 <tr>
 <td width="50%">
 
+**🔹 Smart_Agricultural_Platform_Frontend** *(fork)*
+> No description provided.
+
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Smart_Agricultural_Platform_Frontend?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Apr 26, 2026</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Smart_Agricultural_Platform_Frontend)
+
+</td>
+<td width="50%">
+
+**🔹 Smart_Agricultural_Platform_Backend** *(fork)*
+> No description provided.
+
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Smart_Agricultural_Platform_Backend?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: Apr 26, 2026</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Smart_Agricultural_Platform_Backend)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **🔹 Sachith-02**
 > ✨ Sachith Asmadala  — GitHub Profile README
 
  ![Stars](https://img.shields.io/github/stars/Sachith-02/Sachith-02?style=flat-square&color=38bdf8&labelColor=0d1117)
-<sub>🕒 Updated: Apr 25, 2026</sub>
+<sub>🕒 Updated: Apr 26, 2026</sub>
 
 [![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sachith-02)
 
@@ -162,7 +186,7 @@ String[] values = {
 </table>
 </div>
 
-<sub align="center">🤖 Auto-updated on 2026-04-26 01:52 UTC · 6 public repos</sub>
+<sub align="center">🤖 Auto-updated on 2026-04-27 01:56 UTC · 8 public repos</sub>
 
 <!--PROJECTS_END-->
 
