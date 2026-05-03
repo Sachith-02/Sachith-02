@@ -90,6 +90,17 @@ String[] values = {
 <tr>
 <td width="50%">
 
+**🔹 Sachith-02**
+> ✨ Sachith Asmadala  — GitHub Profile README
+
+ ![Stars](https://img.shields.io/github/stars/Sachith-02/Sachith-02?style=flat-square&color=38bdf8&labelColor=0d1117)
+<sub>🕒 Updated: May 02, 2026</sub>
+
+[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sachith-02)
+
+</td>
+<td width="50%">
+
 **📋 TaskLang**
 > A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
@@ -97,17 +108,6 @@ String[] values = {
 <sub>🕒 Updated: May 01, 2026</sub>
 
 [![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/TaskLang)
-
-</td>
-<td width="50%">
-
-**🔹 Sachith-02**
-> ✨ Sachith Asmadala  — GitHub Profile README
-
- ![Stars](https://img.shields.io/github/stars/Sachith-02/Sachith-02?style=flat-square&color=38bdf8&labelColor=0d1117)
-<sub>🕒 Updated: May 01, 2026</sub>
-
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)](https://github.com/Sachith-02/Sachith-02)
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ String[] values = {
 </table>
 </div>
 
-<sub align="center">🤖 Auto-updated on 2026-05-02 01:55 UTC · 10 public repos</sub>
+<sub align="center">🤖 Auto-updated on 2026-05-03 01:59 UTC · 10 public repos</sub>
 
 <!--PROJECTS_END-->
 
