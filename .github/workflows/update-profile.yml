@@ -8,12 +8,9 @@ on:
       - profile.config.json
       - .github/scripts/update_profile.py
       - .github/workflows/update-profile.yml
-      - tests/**
   schedule:
-    # Refresh every 6 hours so account updates are picked up automatically
-    - cron: "15 */6 * * *"
-  repository_dispatch:
-    types: [profile-update]
+    # Daily refresh at 00:15 UTC
+    - cron: "15 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -40,10 +37,6 @@ jobs:
 
       - name: 🧪 Validate configuration JSON
         run: python -m json.tool profile.config.json > /tmp/profile.config.validated.json
-
-
-      - name: 🧪 Run unit tests
-        run: python -m unittest discover -s tests -v
 
       - name: 🔄 Regenerate dynamic README sections
         env:

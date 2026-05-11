@@ -383,175 +383,6 @@ def build_language_section(language_totals: Dict[str, int]) -> str:
 <!-- LANGUAGE_SUMMARY_END -->"""
 
 
-
-
-def fetch_user_profile(username: str) -> Dict[str, Any]:
-    """Fetch the public GitHub account profile for the configured username."""
-    profile = api_get(f"/users/{username}")
-    return profile if isinstance(profile, dict) else {}
-
-
-def compact_number(value: Any) -> str:
-    """Format large GitHub counters in a compact profile-friendly way."""
-    try:
-        number = int(value or 0)
-    except Exception:
-        number = 0
-    if number >= 1_000_000:
-        return f"{number / 1_000_000:.1f}M".replace(".0M", "M")
-    if number >= 1_000:
-        return f"{number / 1_000:.1f}k".replace(".0k", "k")
-    return str(number)
-
-
-def escape_java_string(value: Any) -> str:
-    """Escape generated text before placing it inside the README Java snippet."""
-    return str(value or "").replace("\\", "\\\\").replace('"', '\\"')
-
-
-def get_top_languages_text(language_totals: Dict[str, int], limit: int = 4) -> str:
-    languages = list(language_totals.keys())[:limit]
-    return ", ".join(languages) if languages else "GitHub language data is still building"
-
-
-def describe_event_inline(event: Dict[str, Any]) -> str:
-    """Convert a public GitHub event into a compact About Me sentence."""
-    line = describe_event(event)
-    if not line:
-        return "No recent public activity detected yet"
-    line = re.sub(r"^-\s*", "", line).replace("**", "")
-    return line
-
-
-def build_auto_about_section(
-    profile: Dict[str, Any],
-    repos: List[Dict[str, Any]],
-    language_totals: Dict[str, int],
-    events: List[Dict[str, Any]],
-    config: Dict[str, Any],
-    scores: Optional[Dict[str, RepoScore]] = None,
-) -> str:
-    """Generate the profile About Me block from live GitHub account data."""
-    username = config["username"]
-    name = profile.get("name") or config.get("display_name") or username
-    location = profile.get("location") or config.get("location") or "Sri Lanka"
-    account_bio = profile.get("bio") or config.get("tagline") or "Building practical software projects and improving every repository step by step."
-    headline = config.get("headline") or "Software Developer"
-    public_repo_count = int(profile.get("public_repos") or len(repos))
-    followers = int(profile.get("followers") or 0)
-    following = int(profile.get("following") or 0)
-    total_stars = sum(int(r.get("stargazers_count") or 0) for r in repos)
-    total_forks = sum(int(r.get("forks_count") or 0) for r in repos)
-    original_count = sum(1 for r in repos if not r.get("fork"))
-    top_languages = get_top_languages_text(language_totals)
-
-    scores = scores or {repo.get("name", ""): score_repo(repo) for repo in repos}
-    strongest_repo = None
-    if repos:
-        strongest_repo = max(repos, key=lambda r: scores.get(r.get("name", ""), score_repo(r)).score)
-    recent_repo = None
-    if repos:
-        recent_repo = max(repos, key=lambda r: parse_iso_datetime(r.get("updated_at", "")))
-
-    strongest_name = strongest_repo.get("name") if strongest_repo else "projects in progress"
-    strongest_desc = truncate(strongest_repo.get("description") or "Portfolio project with improving engineering quality.", 105) if strongest_repo else "Portfolio project with improving engineering quality."
-    recent_name = recent_repo.get("name") if recent_repo else "repository activity"
-    recent_date = format_date(recent_repo.get("updated_at", "")) if recent_repo else "soon"
-    latest_activity = describe_event_inline(events[0]) if events else "No recent public activity detected yet"
-    focus_items = [str(item) for item in config.get("current_focus", [])[:3]]
-    focus_text = "; ".join(focus_items) if focus_items else headline
-    primary_focus = focus_items[0] if focus_items else headline
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
-    return f'''<!-- ABOUT_ME_START -->
-## 👋 About Me
-
-I am **{escape_md(name)}**, a **{escape_md(headline)}** from **{escape_md(location)}**. This section refreshes automatically from my public GitHub account, repository metadata, languages, and recent activity.
-
-> {escape_md(account_bio)}
-
-- 🔭 GitHub signal: **{compact_number(public_repo_count)} public repositories**, **{compact_number(original_count)} original projects**, **{compact_number(total_stars)} stars**, **{compact_number(total_forks)} forks**, and **{compact_number(followers)} followers**
-- 🧠 Main language signal: **{escape_md(top_languages)}**
-- 🚀 Strongest active project: **[{escape_md(strongest_name)}](https://github.com/{username}/{strongest_name})** — {escape_md(strongest_desc)}
-- 🕒 Most recently updated project: **[{escape_md(recent_name)}](https://github.com/{username}/{recent_name})** · {recent_date}
-- ⚡ Latest public activity: {latest_activity}
-- 🎯 Current focus: {escape_md(focus_text)}
-
-```java
-record Developer(String focus, String githubSignal, String currentProject) {{}}
-
-var sachith = new Developer(
-    "{escape_java_string(primary_focus)}",
-    "{original_count} original projects · {total_stars} stars · {followers} followers · {following} following",
-    "{escape_java_string(strongest_name)}"
-);
-```
-
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **{now}**.</sub>
-
-<!-- ABOUT_ME_END -->'''
-
-def workflow_badge(username: str, repository: str, workflow: str, label: Optional[str] = None) -> str:
-    """Return a GitHub Actions badge for a repository workflow file."""
-    workflow_path = urllib.parse.quote(workflow, safe="")
-    return (
-        f"[![{escape_md(label or repository + ' CI')}]("
-        f"https://github.com/{username}/{repository}/actions/workflows/{workflow_path}/badge.svg"
-        f")](https://github.com/{username}/{repository}/actions/workflows/{workflow_path})"
-    )
-
-
-def release_badge(username: str, repository: str, label: Optional[str] = None) -> str:
-    """Return a Shields.io release badge for a repository."""
-    safe_label = urllib.parse.quote(label or f"{repository} release")
-    return (
-        f"![{escape_md(label or repository + ' release')}]"
-        f"(https://img.shields.io/github/v/release/{username}/{repository}"
-        f"?include_prereleases&label={safe_label}&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)"
-    )
-
-
-def build_project_status_section(config: Dict[str, Any]) -> str:
-    """Build CI and release badges for the repositories that should stand out first."""
-    username = config["username"]
-    badge_configs = config.get("project_ci_badges") or []
-
-    if not badge_configs:
-        badge_configs = [
-            {"repository": repo, "workflow": "ci.yml", "label": f"{repo} CI"}
-            for repo in config.get("featured_repositories", [])
-        ]
-
-    rows: List[str] = []
-    for item in badge_configs:
-        repository = item.get("repository")
-        workflow = item.get("workflow", "ci.yml")
-        if not repository:
-            continue
-        label = item.get("label") or f"{repository} CI"
-        rows.append(
-            "| "
-            f"[{escape_md(repository)}](https://github.com/{username}/{repository})"
-            " | "
-            f"{workflow_badge(username, repository, workflow, label)} "
-            f"{release_badge(username, repository)}"
-            " |"
-        )
-
-    body = "\n".join(rows) if rows else "| No project badges configured yet. | Add `project_ci_badges` in `profile.config.json`. |"
-
-    return f"""<!-- PROJECT_STATUS_START -->
-## ✅ Project CI & Release Status
-
-> Badges for the strongest repositories. Update the workflow filenames in `profile.config.json` if a project uses a different CI file name.
-
-| Repository | Status |
-|---|---|
-{body}
-
-<!-- PROJECT_STATUS_END -->"""
-
-
 def repo_card(repo: Dict[str, Any], username: str, score: Optional[RepoScore] = None) -> str:
     name = repo.get("name", "")
     description = truncate(repo.get("description") or "No description provided.")
@@ -568,15 +399,12 @@ def repo_card(repo: Dict[str, Any], username: str, score: Optional[RepoScore] = 
             language_badge(language),
             f"![Stars](https://img.shields.io/github/stars/{username}/{name}?style=flat-square&color=38bdf8&labelColor=0d1117)",
             f"![Forks](https://img.shields.io/github/forks/{username}/{name}?style=flat-square&color=94a3b8&labelColor=0d1117)",
-            release_badge(username, name, "latest release"),
         ]
         if x
     )
     topic_line = ""
     if topics:
-        topic_line = "<br/>" + " ".join(f"<code>{escape_md(t)}</code>" for t in topics[:6])
-    else:
-        topic_line = "<br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>"
+        topic_line = "<br/>" + " ".join(f"<code>{escape_md(t)}</code>" for t in topics[:5])
 
     score_line = ""
     if score:
@@ -724,8 +552,7 @@ def main() -> int:
     config = load_config()
     username = config["username"]
 
-    print(f"Fetching GitHub profile and repositories for {username}...")
-    profile = fetch_user_profile(username)
+    print(f"Fetching GitHub repositories for {username}...")
     all_repos = fetch_repositories(username)
     visible_repos = filter_repos(all_repos, config)
     print(f"Found {len(all_repos)} public repos; using {len(visible_repos)} after filtering.")
@@ -739,10 +566,8 @@ def main() -> int:
     events = fetch_events(username, int(config.get("max_recent_activity", 6)))
 
     content = README_PATH.read_text(encoding="utf-8")
-    content = replace_block(content, "ABOUT_ME", build_auto_about_section(profile, visible_repos, language_totals, events, config, scores))
     content = replace_block(content, "PROFILE_SUMMARY", build_summary_section(all_repos, language_totals, config))
     content = replace_block(content, "LANGUAGE_SUMMARY", build_language_section(language_totals))
-    content = replace_block(content, "PROJECT_STATUS", build_project_status_section(config))
     content = replace_block(content, "FEATURED_PROJECTS", build_featured_section(visible_repos, config, scores))
     content = replace_block(content, "PROJECTS", build_projects_section(visible_repos, config, scores))
     content = replace_block(content, "ACTIVITY", build_activity_section(events))

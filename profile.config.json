@@ -2,7 +2,7 @@
   "username": "Sachith-02",
   "display_name": "Sachith Asmadala",
   "location": "Sri Lanka",
-  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
+  "headline": "Backend Engineer | Java · Spring Boot · Distributed Systems",
   "tagline": "Building secure APIs, clean backend systems, and automation-first developer tools.",
   "current_focus": [
     "Java 21 and Spring Boot 3 production backend design",
@@ -25,65 +25,5 @@
   "max_recent_activity": 6,
   "language_scan_limit": 25,
   "linkedin_url": "https://www.linkedin.com/in/sachith-asmadala-3b185a333/",
-  "theme_color": "38bdf8",
-  "project_ci_badges": [
-    {
-      "repository": "LibraCore",
-      "workflow": "ci.yml",
-      "label": "LibraCore CI"
-    },
-    {
-      "repository": "Knowledge-Studio",
-      "workflow": "ci.yml",
-      "label": "Knowledge Studio CI"
-    },
-    {
-      "repository": "TaskLang",
-      "workflow": "ci.yml",
-      "label": "TaskLang CI"
-    },
-    {
-      "repository": "Distributed_Systems_Group_30",
-      "workflow": "ci.yml",
-      "label": "Distributed Systems CI"
-    }
-  ],
-  "topic_recommendations": {
-    "LibraCore": [
-      "java",
-      "spring-boot",
-      "spring-security",
-      "jwt",
-      "rest-api",
-      "mysql",
-      "docker",
-      "backend"
-    ],
-    "Knowledge-Studio": [
-      "rag",
-      "llm",
-      "knowledge-base",
-      "python",
-      "backend",
-      "api",
-      "automation"
-    ],
-    "TaskLang": [
-      "compiler",
-      "parser",
-      "bison",
-      "flex",
-      "c",
-      "language-design",
-      "cli"
-    ],
-    "Distributed_Systems_Group_30": [
-      "distributed-systems",
-      "microservices",
-      "messaging",
-      "java",
-      "docker",
-      "fault-tolerance"
-    ]
-  }
+  "theme_color": "38bdf8"
 }
