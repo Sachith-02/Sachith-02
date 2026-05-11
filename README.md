@@ -99,22 +99,6 @@ var sachith = new Developer(
 
 ---
 
-<!-- PROJECT_STATUS_START -->
-## ✅ Project CI & Release Status
-
-> Badges for the strongest repositories. Update the workflow filenames in `profile.config.json` if a project uses a different CI file name.
-
-| Repository | Status |
-|---|---|
-| [LibraCore](https://github.com/Sachith-02/LibraCore) | [![LibraCore CI](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml) ![LibraCore release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=LibraCore%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | [![Knowledge Studio CI](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml) ![Knowledge-Studio release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=Knowledge-Studio%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [TaskLang](https://github.com/Sachith-02/TaskLang) | [![TaskLang CI](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml) ![TaskLang release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=TaskLang%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [Distributed_Systems_Group_30](https://github.com/Sachith-02/Distributed_Systems_Group_30) | [![Distributed Systems CI](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml) ![Distributed_Systems_Group_30 release](https://img.shields.io/github/v/release/Sachith-02/Distributed_Systems_Group_30?include_prereleases&label=Distributed_Systems_Group_30%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-
-<!-- PROJECT_STATUS_END -->
-
----
-
 ## 🧭 Architecture & Professional Project Assets
 
 These files help the strongest repositories look more like real engineering projects, not only code dumps.
@@ -162,26 +146,7 @@ Updating soon...
 
 ---
 
-## 🧱 What This Profile Automation Does
 
-This repository is more than a static README. It works like a small automation project:
-
-| Automation Feature | What It Shows |
-|---|---|
-| Account profile scanner | Fetches public GitHub account bio, location, followers, following, and repository count |
-| Repository scanner | Fetches public repositories from the GitHub API |
-| Project scoring | Ranks projects using recency, stars, description quality, language, and fork status |
-| Featured project builder | Highlights strongest portfolio repositories automatically |
-| Language intelligence | Reads language byte data from repositories and builds a visual summary |
-| Auto About Me builder | Rewrites the marked About Me section when account or repository data changes |
-| Activity digest | Shows recent public GitHub activity |
-| CI/release status badges | Shows workflow and release status for strongest repositories |
-| Unit test suite | Protects the Python automation script from accidental breakage |
-| Architecture documentation | Adds Mermaid diagrams for backend, RAG, and distributed-system projects |
-| Safe README rewriting | Updates only marked sections, so the rest of the README stays editable |
-| Scheduled workflow | Runs every 6 hours, can be triggered manually, and supports optional repository dispatch from other repos |
-
----
 
 ## 📊 GitHub Stats
 
@@ -202,17 +167,6 @@ This repository is more than a static README. It works like a small automation p
 
 ---
 
-## 🗺️ Next Engineering Roadmap
-
-- Build one **microservice-style Spring Boot project** with auth, database migration, Docker Compose, tests, OpenAPI docs, and CI/CD
-- Copy `docs/templates/ci.yml` into the strongest project repositories and adjust commands per project
-- Add **unit tests + integration tests** inside each backend repository, not only this profile automation repo
-- Add the suggested **GitHub topics** from `docs/REPOSITORY_TOPICS.md`
-- Publish the first `v1.0.0` releases using `docs/RELEASE_PLAYBOOK.md`
-- Add a **portfolio website** that pulls selected GitHub data automatically
-- Use issues/projects to show planning discipline: backlog, milestones, bugs, and releases
-
----
 
 <div align="center">
 
