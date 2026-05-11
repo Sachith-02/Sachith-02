@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T12:48:03.807389+00:00",
+  "generated_at": "2026-05-11T13:33:56.718133+00:00",
   "username": "Sachith-02",
   "display_name": "Sachith Asmadala",
   "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
-  "readme_bytes": 29445,
+  "readme_bytes": 28921,
   "configured_workflows": 6,
   "workflow_files": [
     ".github/workflows/codeql.yml",
@@ -41,7 +41,6 @@
     "PROJECTS": 1,
     "REPO_HEALTH": 1,
     "ACTIVITY": 1,
-    "ROADMAP": 1,
     "AUTOMATION_ARCHITECTURE": 1
   },
   "local_svg_assets": [

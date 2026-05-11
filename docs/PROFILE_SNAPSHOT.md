@@ -1,13 +1,13 @@
 # Profile Snapshot
 
-Generated: **2026-05-11T12:48:03.807389+00:00**
+Generated: **2026-05-11T13:33:56.718133+00:00**
 
 | Item | Value |
 |---|---:|
-| README size | 29445 bytes |
+| README size | 28921 bytes |
 | Configured workflows | 6 |
 | Workflow files | 10 |
-| Dynamic markers | 13 |
+| Dynamic markers | 12 |
 | Local SVG assets | 5 |
 
 ## Workflow inventory
