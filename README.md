@@ -4,10 +4,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2300&pause=650&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+production-style+backend+systems;Designing+secure+REST+APIs+with+Spring+Boot;Automating+my+GitHub+profile+with+Actions;Learning+distributed+systems+step+by+step;Turning+repositories+into+engineering+case+studies)](https://git.io/typing-svg)
 
-[![Advanced Profile Automation](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml)
-[![Profile Automation Tests](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml)
-[![Profile Quality Gate](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml)
-[![Generate Profile Assets](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
