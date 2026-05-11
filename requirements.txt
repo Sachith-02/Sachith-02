@@ -1,0 +1,2 @@
+# This project intentionally uses only the Python standard library.
+# No pip dependencies are required for the profile automation script.
