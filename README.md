@@ -1,241 +1,229 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020818,50:0a1628,100:0d2137&height=300&section=header&text=Sachith%20Asmadala&fontSize=68&fontColor=ffffff&fontAlignY=40&desc=Backend%20Engineer%20%E2%80%94%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Distributed%20Systems&descAlignY=62&descSize=18&animation=fadeIn&stroke=00d4ff&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:0f2027,70:203a43,100:2c5364&height=240&section=header&text=Sachith%20Asmadala&fontSize=58&fontColor=f8fafc&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Distributed%20Systems&descAlignY=60&descSize=18&animation=fadeIn&stroke=38bdf8&strokeWidth=1.5" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&width=880&lines=Java+21+%2B+Spring+Boot+3+Backend+Developer;Secure+REST+APIs+%7C+JWT+%7C+Spring+Security;Docker+%7C+CI%2FCD+%7C+GitHub+Actions;Distributed+Systems+%7C+Messaging+%7C+Automation;Building+projects+that+look+production-ready)](https://git.io/typing-svg)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
+![Profile Views](https://komarev.com/ghpvc/?username=Sachith-02&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS)
 
 </div>
 
-<div align="center">
+---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2600&pause=800&color=00D4FF&center=true&vCenter=true&width=860&lines=%E2%8A%B3+Secure+APIs+%7C+JWT+%7C+Spring+Security+%7C+RBAC;%E2%8A%B3+Java+21+%7C+Spring+Boot+3+%7C+Clean+Architecture;%E2%8A%B3+Docker+%7C+GitHub+Actions+%7C+CI%2FCD+Pipelines;%E2%8A%B3+Distributed+Systems+%7C+Messaging+%7C+Fault+Tolerance)](https://git.io/typing-svg)
+<img align="right" width="330" alt="Developer animation" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-<br/>
+<!-- ABOUT_ME_START -->
+## 👋 About Me
 
-[![LinkedIn](https://img.shields.io/badge/%F0%9F%93%8E_Connect-LinkedIn-0A66C2?style=flat-square&labelColor=0d1117)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/%F0%9F%90%99_Follow-GitHub-ffffff?style=flat-square&labelColor=0d1117)](https://github.com/Sachith-02)
-&nbsp;
-![Views](https://komarev.com/ghpvc/?username=Sachith-02&style=flat-square&color=00d4ff&label=profile+views)
+I am **Sachith Asmadala**, a backend-focused software engineering student/developer from **Sri Lanka**. My main interest is building systems that are not only working, but also structured like real industry software: secure APIs, clean architecture, database migrations, containerized deployment, and automated CI/CD.
 
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
-
-<br/>
-
-<img align="right" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
-
-### `> whoami`
+- 🔭 Currently improving production-style backend projects with **Java 21, Spring Boot 3, MySQL/PostgreSQL, Docker, and GitHub Actions**
+- 🧠 Exploring **distributed systems, messaging, RAG apps, compilers/parsers, and automation tools**
+- 🎯 Goal: build a GitHub profile that clearly shows **engineering depth**, not only UI badges
+- ⚡ Automation-first mindset: this README updates itself from live GitHub data
 
 ```java
-record Developer(
-    String name,     // Sachith Asmadala
-    String origin,   // 🇱🇰 Sri Lanka
-    String core,     // Backend Systems · API Security · Distributed Architecture
-    String mindset,  // Learn deeply → build practically → automate relentlessly
-    String goal      // Ship software that belongs in production
-) {}
+record Developer(String focus, String mindset, String goal) {}
+
+var sachith = new Developer(
+    "Backend systems + distributed architecture",
+    "Learn deeply, build practically, automate repeatedly",
+    "Become a production-ready software engineer"
+);
 ```
 
-I build backend systems that don't just **work** — they're *secure*, *observable*, and *maintainable*. Clean architecture isn't a nice-to-have for me. It's the baseline.
-
-Currently exploring the intersection of **distributed systems**, **RAG applications**, and **compiler design** — because the most interesting problems live at the edges.
+<!-- ABOUT_ME_END -->
 
 <br clear="right"/>
 
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
-
-<br/>
-
-## 🛠 Arsenal
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="200"><b>⚙️ Core Languages</b></td>
-<td>
-
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>🔐 Backend & Security</b></td>
-<td>
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-02569B?style=flat-square&logo=fastapi&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td align="center"><b>🗄️ Data & DevOps</b></td>
-<td>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
-
-<br/>
-
-## 📡 Live Engineering Snapshot
+---
 
 <!-- PROFILE_SUMMARY_START -->
+## 🧠 Live Engineering Snapshot
 
-<div align="center">
+> This block is automatically regenerated by GitHub Actions.
 
-| 📦 Public Repos | 🔨 Original | ⭐ Stars | 🧠 Top Languages | 🕐 Last Run |
-|:---:|:---:|:---:|:---:|:---:|
-| Updating… | Updating… | Updating… | Updating… | Updating… |
-
-</div>
+| Metric | Value |
+|---|---:|
+| Public repositories | Updating soon |
+| Original projects | Updating soon |
+| Forked projects | Updating soon |
+| Total stars | Updating soon |
+| Most used languages | Updating soon |
+| Last automation run | Updating soon |
 
 <!-- PROFILE_SUMMARY_END -->
 
-<br/>
+---
 
-<!-- LANGUAGE_SUMMARY_START -->
+## 🧰 Core Tech Stack
 
 <div align="center">
 
-**Language Distribution**
+**Languages**  
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-`Java` ░░░░░░░░░░ —  &nbsp; `Python` ░░░░░░░░░░ —  &nbsp; `C` ░░░░░░░░░░ —
+**Backend & Security**  
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**Database & DevOps**  
+![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 </div>
+
+---
+
+<!-- LANGUAGE_SUMMARY_START -->
+## 📌 Language Intelligence
+
+> This section will be automatically calculated from repository language data.
+
+`Java` ░░░░░░░░░░ 0.0%  
+`Python` ░░░░░░░░░░ 0.0%  
+`C` ░░░░░░░░░░ 0.0%
 
 <!-- LANGUAGE_SUMMARY_END -->
 
-<br/>
+---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
+<!-- PROJECT_STATUS_START -->
+## ✅ Project CI & Release Status
 
-<br/>
+> Badges for the strongest repositories. Update the workflow filenames in `profile.config.json` if a project uses a different CI file name.
 
-## ✦ Featured Projects
+| Repository | Status |
+|---|---|
+| [LibraCore](https://github.com/Sachith-02/LibraCore) | [![LibraCore CI](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml) ![LibraCore release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=LibraCore%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
+| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | [![Knowledge Studio CI](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml) ![Knowledge-Studio release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=Knowledge-Studio%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
+| [TaskLang](https://github.com/Sachith-02/TaskLang) | [![TaskLang CI](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml) ![TaskLang release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=TaskLang%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
+| [Distributed_Systems_Group_30](https://github.com/Sachith-02/Distributed_Systems_Group_30) | [![Distributed Systems CI](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml) ![Distributed_Systems_Group_30 release](https://img.shields.io/github/v/release/Sachith-02/Distributed_Systems_Group_30?include_prereleases&label=Distributed_Systems_Group_30%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
+
+<!-- PROJECT_STATUS_END -->
+
+---
+
+## 🧭 Architecture & Professional Project Assets
+
+These files help the strongest repositories look more like real engineering projects, not only code dumps.
+
+| Asset | Link | Purpose |
+|---|---|---|
+| Backend architecture diagrams | [docs/architecture](docs/architecture) | Mermaid diagrams for API flow, RAG/data flow, distributed systems, and deployment thinking |
+| Repository topic plan | [docs/REPOSITORY_TOPICS.md](docs/REPOSITORY_TOPICS.md) | Exact topics to add so GitHub cards show better tags |
+| Release playbook | [docs/RELEASE_PLAYBOOK.md](docs/RELEASE_PLAYBOOK.md) | Versioning, release notes, and GitHub CLI release commands |
+| CI workflow template | [docs/templates/ci.yml](docs/templates/ci.yml) | Copy-ready CI template for Java, Spring Boot, Python, and mixed repositories |
+| Instant profile update template | [docs/templates/trigger-profile-update.yml](docs/templates/trigger-profile-update.yml) | Optional repository-dispatch workflow for near-instant profile refreshes |
+| Account update automation | [docs/ACCOUNT_UPDATE_AUTOMATION.md](docs/ACCOUNT_UPDATE_AUTOMATION.md) | Explains how the About Me block refreshes from live GitHub account changes |
+
+
+---
 
 <!-- FEATURED_PROJECTS_START -->
+## 🌟 Featured Engineering Projects
 
-<div align="center">
-
-> ⚡ Auto-selected from starred repositories. Updated by GitHub Actions.
+> This section is automatically selected from configured priority projects and live repository data.
 
 Updating soon...
-
-</div>
 
 <!-- FEATURED_PROJECTS_END -->
 
-<br/>
+---
 
 <!-- PROJECTS_START -->
+## 🚀 Repository Portfolio
 
-## 🗂 Full Portfolio
-
-<div align="center">
-
-> Ranked by engineering depth — stars, recency, description, and originality.
+> This portfolio is automatically sorted, scored, and regenerated using GitHub Actions.
 
 Updating soon...
-
-</div>
 
 <!-- PROJECTS_END -->
 
-<br/>
+---
 
 <!-- ACTIVITY_START -->
-
-## 🕐 Recent Activity
-
-<div align="center">
+## ⚡ Recent Public Activity
 
 Updating soon...
 
-</div>
-
 <!-- ACTIVITY_END -->
 
-<br/>
+---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
+## 🧱 What This Profile Automation Does
 
-<br/>
+This repository is more than a static README. It works like a small automation project:
+
+| Automation Feature | What It Shows |
+|---|---|
+| Account profile scanner | Fetches public GitHub account bio, location, followers, following, and repository count |
+| Repository scanner | Fetches public repositories from the GitHub API |
+| Project scoring | Ranks projects using recency, stars, description quality, language, and fork status |
+| Featured project builder | Highlights strongest portfolio repositories automatically |
+| Language intelligence | Reads language byte data from repositories and builds a visual summary |
+| Auto About Me builder | Rewrites the marked About Me section when account or repository data changes |
+| Activity digest | Shows recent public GitHub activity |
+| CI/release status badges | Shows workflow and release status for strongest repositories |
+| Unit test suite | Protects the Python automation script from accidental breakage |
+| Architecture documentation | Adds Mermaid diagrams for backend, RAG, and distributed-system projects |
+| Safe README rewriting | Updates only marked sections, so the rest of the README stays editable |
+| Scheduled workflow | Runs every 6 hours, can be triggered manually, and supports optional repository dispatch from other repos |
+
+---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020818&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&border_radius=12&include_all_commits=true&count_private=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=020818&title_color=00d4ff&text_color=c9d1d9&border_radius=12&langs_count=8" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=10" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=10&langs_count=8" width="40%"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Sachith-02&theme=tokyonight&hide_border=true&background=020818&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff&sideLabels=8b949e&sideNums=c9d1d9&dates=555f69&border_radius=12" width="57%"/>
+<img src="https://streak-stats.demolab.com?user=Sachith-02&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=fb923c&currStreakLabel=38bdf8&sideLabels=94a3b8&sideNums=e2e8f0&dates=64748b" width="56%"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sachith-02&bg_color=020818&color=00d4ff&line=0066ff&point=ff6b35&area=true&hide_border=true&area_color=001830&radius=8" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sachith-02&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=fb923c&area=true&hide_border=true&area_color=0c1f30&radius=8" width="98%"/>
 
 </div>
 
-<br/>
+---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00d4ff,100:0066ff&height=2&section=header" width="60%"/>
-</div>
+## 🗺️ Next Engineering Roadmap
 
-<br/>
+- Build one **microservice-style Spring Boot project** with auth, database migration, Docker Compose, tests, OpenAPI docs, and CI/CD
+- Copy `docs/templates/ci.yml` into the strongest project repositories and adjust commands per project
+- Add **unit tests + integration tests** inside each backend repository, not only this profile automation repo
+- Add the suggested **GitHub topics** from `docs/REPOSITORY_TOPICS.md`
+- Publish the first `v1.0.0` releases using `docs/RELEASE_PLAYBOOK.md`
+- Add a **portfolio website** that pulls selected GitHub data automatically
+- Use issues/projects to show planning discipline: backlog, milestones, bugs, and releases
 
-## 🏆 Achievements
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Sachith-02&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<br/>
+---
 
 <div align="center">
 
-*"Good software is not only written — it is designed, tested, secured, documented, deployed, and improved."*
+### 🏆 GitHub Achievements
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Sachith-02&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 <br/>
 
+> *"Good software is not only written. It is designed, tested, secured, documented, deployed, and improved."*
+
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d2137,50:0a1628,100:020818&height=180&section=footer&reversal=true&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,40:203a43,70:0f2027,100:0d0d0d&height=140&section=footer&animation=fadeIn" width="100%"/>
