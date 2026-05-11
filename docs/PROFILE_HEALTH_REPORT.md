@@ -1,9 +1,9 @@
 # Profile Automation Health Report
 
-Generated: **2026-05-11 11:32 UTC**
+Generated: **2026-05-11 12:21 UTC**
 
 Overall score: **100.0%**  
-Checks passed: **51/51**
+Checks passed: **47/47**
 
 | Status | Check | Detail |
 |---|---|---|
@@ -52,10 +52,6 @@ Checks passed: **51/51**
 | ✅ | Workflow config `test-profile-automation.yml` | Workflow file exists |
 | ✅ | Workflow config `validate-profile.yml` | Workflow file exists |
 | ✅ | Workflow config `generate-profile-assets.yml` | Workflow file exists |
-| ✅ | Workflow config `readme-lint.yml` | Workflow file exists |
-| ✅ | Workflow config `profile-snapshot.yml` | Workflow file exists |
-| ✅ | Workflow config `codeql.yml` | Workflow file exists |
-| ✅ | Workflow config `dependency-review.yml` | Workflow file exists |
 | ✅ | Workflow config `weekly-profile-maintenance.yml` | Workflow file exists |
 | ✅ | Workflow config `release-profile-package.yml` | Workflow file exists |
 

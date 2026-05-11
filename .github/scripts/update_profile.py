@@ -591,7 +591,7 @@ def repo_card(repo: Dict[str, Any], username: str, score: Optional[RepoScore] = 
 
     return f"""<td width="50%" valign="top">
 
-### {icon} [{escape_md(name)}]({html_url})
+<h3>{icon} <a href="{html_url}">{escape_md(name)}</a></h3>
 
 {badge_line}
 
@@ -701,7 +701,8 @@ def describe_event(event: Dict[str, Any], include_date: bool = True) -> Optional
         commits = len(payload.get("commits") or [])
         branch = str(payload.get("ref") or "").replace("refs/heads/", "")
         branch_text = f" to `{escape_md(branch)}`" if branch else ""
-        return f"- 🧩 {linked_activity(f'Pushed {commits} commit{'s' if commits != 1 else ''}', url)}{branch_text} in {repo}{suffix}"
+        commit_word = "commit" if commits == 1 else "commits"
+        return f"- 🧩 {linked_activity(f'Pushed {commits} {commit_word}', url)}{branch_text} in {repo}{suffix}"
     if event_type == "CreateEvent":
         ref_type = payload.get("ref_type", "item")
         ref = payload.get("ref")
