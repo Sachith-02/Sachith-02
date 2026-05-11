@@ -96,24 +96,6 @@ var sachith = new Developer(
 
 ---
 
-<!-- ACTIONS_DASHBOARD_START -->
-## 🛰️ GitHub Actions Control Center
-
-> A profile that updates itself should also show the automation behind it.
-
-| Workflow | File | Trigger | Job |
-|---|---|---|---|
-| [![Advanced Profile Automation](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml) | `update-profile.yml` | Every 6 hours + manual + dispatch | Regenerates README from live GitHub API data |
-| [![Profile Automation Tests](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml) | `test-profile-automation.yml` | Push + PR + manual | Runs Python unit tests and compile checks |
-| [![Profile Quality Gate](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml) | `validate-profile.yml` | Push + PR + manual | Validates README markers, config, docs, and workflows |
-| [![Generate Profile Assets](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml) | `generate-profile-assets.yml` | Daily + manual | Builds SVG architecture and skill assets |
-| [![Weekly Profile Maintenance](https://github.com/Sachith-02/Sachith-02/actions/workflows/weekly-profile-maintenance.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/weekly-profile-maintenance.yml) | `weekly-profile-maintenance.yml` | Weekly + manual | Refreshes README, SVGs, and health report together |
-| [![Release Profile Package](https://github.com/Sachith-02/Sachith-02/actions/workflows/release-profile-package.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/release-profile-package.yml) | `release-profile-package.yml` | Version tag | Creates a downloadable profile automation release package |
-
-<!-- ACTIONS_DASHBOARD_END -->
-
----
-
 <!-- ENGINEERING_MATRIX_START -->
 ## 🧬 Engineering Matrix
 
