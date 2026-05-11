@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-11T11:55:39.104988+00:00",
+  "generated_at": "2026-05-11T11:59:47.817369+00:00",
   "username": "Sachith-02",
   "display_name": "Sachith Asmadala",
-  "headline": "Backend Developer | Java \u00b7 Spring Boot \u00b7 Distributed Systems \u00b7 Automation",
-  "readme_bytes": 8954,
-  "configured_workflows": 10,
+  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
+  "readme_bytes": 12629,
+  "configured_workflows": 6,
   "workflow_files": [
     ".github/workflows/codeql.yml",
     ".github/workflows/dependency-review.yml",
@@ -19,32 +19,27 @@
   ],
   "configured_sections": [
     "About Me",
-    "Profile Summary",
-    "Professional Focus",
+    "Live Snapshot",
     "Actions Dashboard",
     "Engineering Matrix",
     "Language Intelligence",
     "Project Status",
     "Featured Projects",
     "Portfolio",
-    "Repository Health",
     "Recent Activity",
-    "Roadmap",
-    "Automation Architecture"
+    "Architecture"
   ],
   "marker_counts": {
     "ABOUT_ME": 1,
     "PROFILE_SUMMARY": 1,
-    "FOCUS_AREAS": 1,
+    "ACTIONS_DASHBOARD": 1,
     "ENGINEERING_MATRIX": 1,
     "LANGUAGE_SUMMARY": 1,
     "PROJECT_STATUS": 1,
     "FEATURED_PROJECTS": 1,
     "PROJECTS": 1,
     "REPO_HEALTH": 1,
-    "ACTIONS_DASHBOARD": 1,
     "ACTIVITY": 1,
-    "ROADMAP": 1,
     "AUTOMATION_ARCHITECTURE": 1
   },
   "local_svg_assets": [
@@ -60,12 +55,5 @@
     "TaskLang",
     "Distributed_Systems_Group_30"
   ],
-  "quality_gates": [
-    "README marker validation",
-    "Python automation unit tests",
-    "Generated SVG asset checks",
-    "Profile snapshot artifact",
-    "Link and Markdown structure checks",
-    "CodeQL security scan for automation scripts"
-  ]
+  "quality_gates": []
 }

@@ -1,28 +1,24 @@
 # Profile Snapshot
 
-Generated: **2026-05-11T11:55:39.104988+00:00**
+Generated: **2026-05-11T11:59:47.817369+00:00**
 
 | Item | Value |
 |---|---:|
-| README size | 8954 bytes |
-| Configured workflows | 10 |
+| README size | 12629 bytes |
+| Configured workflows | 6 |
 | Workflow files | 10 |
-| Dynamic markers | 13 |
+| Dynamic markers | 11 |
 | Local SVG assets | 5 |
 
 ## Workflow inventory
 
 | Workflow | File | Purpose |
 |---|---|---|
-| Advanced Profile Automation | `update-profile.yml` | Regenerates README modules from live GitHub data |
-| Profile Automation Tests | `test-profile-automation.yml` | Runs unit tests across Python versions |
-| Profile Quality Gate | `validate-profile.yml` | Validates markers, config, docs, scripts, and workflows |
-| Generate Profile Assets | `generate-profile-assets.yml` | Builds local SVG banner, matrices, and architecture assets |
-| README Lint | `readme-lint.yml` | Checks README professionalism, local images, anchors, and marker hygiene |
-| Profile Snapshot | `profile-snapshot.yml` | Creates JSON and Markdown snapshots for auditability |
-| CodeQL Security Scan | `codeql.yml` | Scans Python automation scripts for security issues |
-| Dependency Review | `dependency-review.yml` | Reviews dependency changes before merging |
-| Weekly Profile Maintenance | `weekly-profile-maintenance.yml` | Refreshes README, SVGs, snapshots, and health report together |
+| Advanced Profile Automation | `update-profile.yml` | Regenerates README from live GitHub API data |
+| Profile Automation Tests | `test-profile-automation.yml` | Runs Python unit tests and compile checks |
+| Profile Quality Gate | `validate-profile.yml` | Validates README markers, config, docs, and workflows |
+| Generate Profile Assets | `generate-profile-assets.yml` | Builds SVG architecture and skill assets |
+| Weekly Profile Maintenance | `weekly-profile-maintenance.yml` | Refreshes README, SVGs, and health report together |
 | Release Profile Package | `release-profile-package.yml` | Creates a downloadable profile automation release package |
 
 ## Local SVG assets
