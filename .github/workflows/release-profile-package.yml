@@ -1,0 +1,40 @@
+name: 📦 Release Profile Package
+
+on:
+  push:
+    tags:
+      - "profile-v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package-profile:
+    name: Package profile automation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 🧪 Validate before release
+        run: |
+          python -m json.tool profile.config.json > /tmp/profile.config.validated.json
+          python -m unittest discover -s tests -v
+          python .github/scripts/profile_health_check.py --check-only
+
+      - name: 📦 Create release archive
+        run: |
+          zip -r profile-automation-package.zip README.md profile.config.json .github docs assets tests -x "*/__pycache__/*"
+
+      - name: 🚀 Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: profile-automation-package.zip
+          generate_release_notes: true

@@ -1,17 +1,17 @@
-name: 🧪 Test Profile Automation
+name: 🧪 Profile Automation Tests
 
 on:
   push:
     branches: [main]
     paths:
-      - .github/scripts/update_profile.py
+      - .github/scripts/**
       - tests/**
       - profile.config.json
       - .github/workflows/test-profile-automation.yml
   pull_request:
     branches: [main]
     paths:
-      - .github/scripts/update_profile.py
+      - .github/scripts/**
       - tests/**
       - profile.config.json
       - .github/workflows/test-profile-automation.yml
@@ -20,24 +20,30 @@ on:
 permissions:
   contents: read
 
+
 jobs:
-  test:
+  unit-tests:
+    name: Python automation tests
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
 
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
+      - name: 🐍 Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ matrix.python-version }}
 
       - name: ✅ Validate JSON config
         run: python -m json.tool profile.config.json > /tmp/profile.config.validated.json
 
-      - name: 🔎 Compile automation script
-        run: python -m py_compile .github/scripts/update_profile.py
+      - name: 🔎 Compile scripts
+        run: python -m compileall .github/scripts tests
 
       - name: 🧪 Run unit tests
         run: python -m unittest discover -s tests -v

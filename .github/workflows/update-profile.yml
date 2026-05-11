@@ -6,25 +6,35 @@ on:
     paths:
       - README.md
       - profile.config.json
-      - .github/scripts/update_profile.py
+      - .github/scripts/**
       - .github/workflows/update-profile.yml
       - tests/**
+      - docs/**
+      - assets/**
   schedule:
-    # Refresh every 6 hours so account updates are picked up automatically
     - cron: "15 */6 * * *"
   repository_dispatch:
     types: [profile-update]
   workflow_dispatch:
+    inputs:
+      refresh_reason:
+        description: "Why are you refreshing the profile?"
+        required: false
+        default: "Manual profile refresh"
 
 permissions:
   contents: write
+
+env:
+  PYTHON_VERSION: "3.12"
 
 concurrency:
   group: profile-readme-update
   cancel-in-progress: true
 
 jobs:
-  update-profile:
+  regenerate-profile:
+    name: Regenerate README modules
     runs-on: ubuntu-latest
 
     steps:
@@ -36,19 +46,27 @@ jobs:
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: 🧪 Validate configuration JSON
         run: python -m json.tool profile.config.json > /tmp/profile.config.validated.json
 
+      - name: 🔎 Compile automation scripts
+        run: python -m compileall .github/scripts tests
 
       - name: 🧪 Run unit tests
         run: python -m unittest discover -s tests -v
+
+      - name: 🎨 Generate profile SVG assets
+        run: python .github/scripts/generate_profile_assets.py
 
       - name: 🔄 Regenerate dynamic README sections
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python .github/scripts/update_profile.py
+
+      - name: 🩺 Generate profile health report
+        run: python .github/scripts/profile_health_check.py
 
       - name: ✅ Show changed files
         run: git status --short
@@ -57,10 +75,10 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/*.svg docs/PROFILE_HEALTH_REPORT.md
           if git diff --staged --quiet; then
-            echo "No README changes to commit."
+            echo "No profile changes to commit."
           else
-            git commit -m "🤖 Auto-update advanced profile README [skip ci]"
+            git commit -m "🤖 Auto-update advanced profile system [skip ci]"
             git push
           fi

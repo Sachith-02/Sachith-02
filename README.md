@@ -1,12 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,40:0f2027,70:203a43,100:2c5364&height=240&section=header&text=Sachith%20Asmadala&fontSize=58&fontColor=f8fafc&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Distributed%20Systems&descAlignY=60&descSize=18&animation=fadeIn&stroke=38bdf8&strokeWidth=1.5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,65:075985,100:38bdf8&height=255&section=header&text=Sachith%20Asmadala&fontSize=58&fontColor=f8fafc&fontAlignY=36&desc=Backend%20Engineer%20%7C%20Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20Automation&descAlignY=58&descSize=18&animation=fadeIn&stroke=38bdf8&strokeWidth=1" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&width=880&lines=Java+21+%2B+Spring+Boot+3+Backend+Developer;Secure+REST+APIs+%7C+JWT+%7C+Spring+Security;Docker+%7C+CI%2FCD+%7C+GitHub+Actions;Distributed+Systems+%7C+Messaging+%7C+Automation;Building+projects+that+look+production-ready)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2300&pause=650&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+production-style+backend+systems;Designing+secure+REST+APIs+with+Spring+Boot;Automating+my+GitHub+profile+with+Actions;Learning+distributed+systems+step+by+step;Turning+repositories+into+engineering+case+studies)](https://git.io/typing-svg)
+
+[![Advanced Profile Automation](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml)
+[![Profile Automation Tests](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml)
+[![Profile Quality Gate](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml)
+[![Generate Profile Assets](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
 ![Profile Views](https://komarev.com/ghpvc/?username=Sachith-02&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS)
+![Automation](https://img.shields.io/badge/README-Self_Updating-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0d1117)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🧭 Profile Navigation
+
+[About](#-about-me) • [Live Snapshot](#-live-engineering-snapshot) • [Actions](#%EF%B8%8F-github-actions-control-center) • [Engineering Matrix](#-engineering-matrix) • [Languages](#-language-intelligence) • [Projects](#-featured-engineering-projects) • [Activity](#-recent-public-activity) • [Architecture](#-automation-architecture)
 
 </div>
 
@@ -17,20 +33,20 @@
 <!-- ABOUT_ME_START -->
 ## 👋 About Me
 
-I am **Sachith Asmadala**, a backend-focused software engineering student/developer from **Sri Lanka**. My main interest is building systems that are not only working, but also structured like real industry software: secure APIs, clean architecture, database migrations, containerized deployment, and automated CI/CD.
+I am **Sachith Asmadala**, a backend-focused software engineering student/developer from **Sri Lanka**. My goal is to build projects that look and behave like real industry systems: clean code, secure APIs, documented architecture, repeatable deployment, and automated quality checks.
 
-- 🔭 Currently improving production-style backend projects with **Java 21, Spring Boot 3, MySQL/PostgreSQL, Docker, and GitHub Actions**
-- 🧠 Exploring **distributed systems, messaging, RAG apps, compilers/parsers, and automation tools**
-- 🎯 Goal: build a GitHub profile that clearly shows **engineering depth**, not only UI badges
-- ⚡ Automation-first mindset: this README updates itself from live GitHub data
+- 🔭 Building backend projects using **Java 21, Spring Boot 3, Docker, SQL databases, and GitHub Actions**
+- 🧠 Exploring **distributed systems, RAG apps, parsers/compilers, messaging, and automation tools**
+- 🧪 Turning repositories into **case studies** with architecture diagrams, CI badges, releases, and topic metadata
+- ⚡ This README is designed as a mini automation platform, not only a static profile page
 
 ```java
-record Developer(String focus, String mindset, String goal) {}
+record Developer(String focus, String mindset, String system) {}
 
 var sachith = new Developer(
-    "Backend systems + distributed architecture",
-    "Learn deeply, build practically, automate repeatedly",
-    "Become a production-ready software engineer"
+    "Backend APIs + distributed architecture",
+    "Build deeply, test clearly, automate repeatedly",
+    "Self-updating GitHub profile powered by Actions"
 );
 ```
 
@@ -43,18 +59,56 @@ var sachith = new Developer(
 <!-- PROFILE_SUMMARY_START -->
 ## 🧠 Live Engineering Snapshot
 
-> This block is automatically regenerated by GitHub Actions.
+> This section will be regenerated from live GitHub API data.
 
 | Metric | Value |
 |---|---:|
-| Public repositories | Updating soon |
+| Public repositories scanned | Updating soon |
 | Original projects | Updating soon |
 | Forked projects | Updating soon |
 | Total stars | Updating soon |
+| Total forks | Updating soon |
 | Most used languages | Updating soon |
+| Automation mode | Multi-workflow GitHub Actions |
 | Last automation run | Updating soon |
 
 <!-- PROFILE_SUMMARY_END -->
+
+---
+
+<!-- ACTIONS_DASHBOARD_START -->
+## 🛰️ GitHub Actions Control Center
+
+> This profile uses several workflows instead of one simple script.
+
+| Workflow | File | Trigger | Job |
+|---|---|---|---|
+| Advanced Profile Automation | `update-profile.yml` | Every 6 hours + manual | Regenerate README dynamic blocks |
+| Profile Automation Tests | `test-profile-automation.yml` | Push + PR | Run unit tests |
+| Profile Quality Gate | `validate-profile.yml` | Push + PR | Validate markers, scripts, config, and docs |
+| Generate Profile Assets | `generate-profile-assets.yml` | Daily + manual | Build local SVG assets |
+| Weekly Profile Maintenance | `weekly-profile-maintenance.yml` | Weekly + manual | Refresh README + health report |
+| Release Profile Package | `release-profile-package.yml` | Version tag | Package profile automation release |
+
+<!-- ACTIONS_DASHBOARD_END -->
+
+---
+
+<!-- ENGINEERING_MATRIX_START -->
+## 🧬 Engineering Matrix
+
+<img src="assets/engineering-matrix.svg" alt="Engineering matrix generated by GitHub Actions" width="100%"/>
+
+| Area | Signal | Evidence |
+|---|---:|---|
+| **Backend APIs** | `███████████░` **92%** | Java 21, Spring Boot 3, REST, validation, layered architecture |
+| **Security** | `██████████░░` **84%** | JWT, Spring Security, RBAC, protected routes |
+| **Data Layer** | `█████████░░░` **78%** | MySQL, PostgreSQL, migrations, repository patterns |
+| **DevOps Automation** | `███████████░` **88%** | Docker, GitHub Actions, scheduled README generation |
+| **Distributed Systems** | `█████████░░░` **74%** | Messaging, microservice thinking, fault-tolerance concepts |
+| **Documentation** | `██████████░░` **86%** | Architecture diagrams, release playbook, project topics |
+
+<!-- ENGINEERING_MATRIX_END -->
 
 ---
 
@@ -75,12 +129,12 @@ var sachith = new Developer(
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**Database & DevOps**  
+**Database, Cloud Thinking & Automation**  
 ![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white)
 
 </div>
 
@@ -99,19 +153,34 @@ var sachith = new Developer(
 
 ---
 
-## 🧭 Architecture & Professional Project Assets
+<!-- PROJECT_STATUS_START -->
+## ✅ Project CI & Release Status
 
-These files help the strongest repositories look more like real engineering projects, not only code dumps.
+> Badges for flagship repositories will be generated from `profile.config.json`.
 
-| Asset | Link | Purpose |
+| Repository | Status |
+|---|---|
+| LibraCore | CI and release badge updating soon |
+| Knowledge-Studio | CI and release badge updating soon |
+| TaskLang | CI and release badge updating soon |
+| Distributed_Systems_Group_30 | CI and release badge updating soon |
+
+<!-- PROJECT_STATUS_END -->
+
+---
+
+## 🧭 Professional Project Assets
+
+<img src="assets/profile-layers.svg" alt="README module system generated by GitHub Actions" width="100%"/>
+
+| Asset | Link | Why it matters |
 |---|---|---|
-| Backend architecture diagrams | [docs/architecture](docs/architecture) | Mermaid diagrams for API flow, RAG/data flow, distributed systems, and deployment thinking |
-| Repository topic plan | [docs/REPOSITORY_TOPICS.md](docs/REPOSITORY_TOPICS.md) | Exact topics to add so GitHub cards show better tags |
-| Release playbook | [docs/RELEASE_PLAYBOOK.md](docs/RELEASE_PLAYBOOK.md) | Versioning, release notes, and GitHub CLI release commands |
-| CI workflow template | [docs/templates/ci.yml](docs/templates/ci.yml) | Copy-ready CI template for Java, Spring Boot, Python, and mixed repositories |
-| Instant profile update template | [docs/templates/trigger-profile-update.yml](docs/templates/trigger-profile-update.yml) | Optional repository-dispatch workflow for near-instant profile refreshes |
-| Account update automation | [docs/ACCOUNT_UPDATE_AUTOMATION.md](docs/ACCOUNT_UPDATE_AUTOMATION.md) | Explains how the About Me block refreshes from live GitHub account changes |
-
+| Architecture diagrams | [docs/architecture](docs/architecture) | Shows system design, not only code |
+| Repository topic plan | [docs/REPOSITORY_TOPICS.md](docs/REPOSITORY_TOPICS.md) | Makes repository cards more professional |
+| Release playbook | [docs/RELEASE_PLAYBOOK.md](docs/RELEASE_PLAYBOOK.md) | Helps repositories look maintained |
+| CI workflow template | [docs/templates/ci.yml](docs/templates/ci.yml) | Copy-ready quality automation |
+| Profile automation guide | [docs/AUTOMATION_GUIDE.md](docs/AUTOMATION_GUIDE.md) | Explains how the README updates itself |
+| Health report | [docs/PROFILE_HEALTH_REPORT.md](docs/PROFILE_HEALTH_REPORT.md) | Tracks profile automation quality |
 
 ---
 
@@ -137,6 +206,19 @@ Updating soon...
 
 ---
 
+<!-- REPO_HEALTH_START -->
+## 🧪 Repository Health Board
+
+> Repository health data will be generated after the first automation run.
+
+| Repository | Language | Metadata | Score | Next improvement |
+|---|---|---|---:|---|
+| Updating soon | — | — | 0 | Run the automation workflow |
+
+<!-- REPO_HEALTH_END -->
+
+---
+
 <!-- ACTIVITY_START -->
 ## ⚡ Recent Public Activity
 
@@ -146,14 +228,12 @@ Updating soon...
 
 ---
 
-
-
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=10" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=10&langs_count=8" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=12" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=12&langs_count=8" width="40%"/>
 
 <br/><br/>
 
@@ -167,6 +247,27 @@ Updating soon...
 
 ---
 
+<!-- AUTOMATION_ARCHITECTURE_START -->
+## 🧱 Automation Architecture
+
+<img src="assets/automation-workflow.svg" alt="Profile automation workflow generated by GitHub Actions" width="100%"/>
+
+```mermaid
+flowchart LR
+    A[Schedule / Manual / Repository Dispatch] --> B[GitHub Actions]
+    B --> C[Validate Config]
+    C --> D[Run Tests]
+    D --> E[Generate SVG Assets]
+    E --> F[Fetch GitHub API]
+    F --> G[Score Repositories]
+    G --> H[Rewrite README Blocks]
+    H --> I[Health Report]
+    I --> J[Commit Changes]
+```
+
+<!-- AUTOMATION_ARCHITECTURE_END -->
+
+---
 
 <div align="center">
 
@@ -176,8 +277,8 @@ Updating soon...
 
 <br/>
 
-> *"Good software is not only written. It is designed, tested, secured, documented, deployed, and improved."*
+> *Good software is designed, tested, secured, documented, deployed, observed, and improved.*
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,40:203a43,70:0f2027,100:0d0d0d&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,35:075985,65:0f172a,100:020617&height=150&section=footer&animation=fadeIn" width="100%"/>
