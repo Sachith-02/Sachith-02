@@ -182,9 +182,15 @@ def fetch_languages(username: str, repo_name: str) -> Dict[str, int]:
 
 
 def fetch_events(username: str, limit: int) -> List[Dict[str, Any]]:
+    """Fetch recent public GitHub activity events.
+
+    GitHub's public events endpoint can contain event types we do not render,
+    so we fetch a wider window and let the README builder pick the best rows.
+    """
     try:
-        events = api_get(f"/users/{username}/events/public", {"per_page": min(max(limit * 3, 10), 30)})
-        return events[:limit] if isinstance(events, list) else []
+        per_page = min(max(limit * 5, 20), 100)
+        events = api_get(f"/users/{username}/events/public", {"per_page": per_page})
+        return events if isinstance(events, list) else []
     except Exception as exc:
         print(f"Warning: could not fetch activity events: {exc}", file=sys.stderr)
         return []
@@ -656,41 +662,124 @@ def build_projects_section(repos: List[Dict[str, Any]], config: Dict[str, Any], 
 <!-- PROJECTS_END -->"""
 
 
-def describe_event(event: Dict[str, Any]) -> Optional[str]:
+def repo_markdown(repo_name: str) -> str:
+    """Create a safe Markdown link for a repository name from an event."""
+    repo_name = escape_md(repo_name)
+    if "/" not in repo_name:
+        return f"`{repo_name}`"
+    return f"[`{repo_name}`](https://github.com/{repo_name})"
+
+
+def event_link(payload: Dict[str, Any], fallback_repo: str) -> str:
+    """Find the most useful public URL for a GitHub activity event."""
+    for key in ("pull_request", "issue", "release", "comment", "forkee"):
+        item = payload.get(key)
+        if isinstance(item, dict) and item.get("html_url"):
+            return item["html_url"]
+    if fallback_repo and "/" in fallback_repo:
+        return f"https://github.com/{fallback_repo}"
+    return ""
+
+
+def linked_activity(text: str, url: str) -> str:
+    """Turn activity text into a Markdown link when a useful URL exists."""
+    text = escape_md(text)
+    return f"[{text}]({url})" if url else text
+
+
+def describe_event(event: Dict[str, Any], include_date: bool = True) -> Optional[str]:
+    """Convert a public GitHub event into a profile-friendly activity line."""
     event_type = event.get("type", "")
     repo_name = (event.get("repo") or {}).get("name", "")
     created = format_date(event.get("created_at", ""))
     payload = event.get("payload") or {}
+    repo = repo_markdown(repo_name)
+    url = event_link(payload, repo_name)
+    suffix = f" · {created}" if include_date else ""
 
     if event_type == "PushEvent":
         commits = len(payload.get("commits") or [])
-        return f"- 🧩 Pushed **{commits} commit{'s' if commits != 1 else ''}** to `{repo_name}` · {created}"
+        branch = str(payload.get("ref") or "").replace("refs/heads/", "")
+        branch_text = f" to `{escape_md(branch)}`" if branch else ""
+        return f"- 🧩 {linked_activity(f'Pushed {commits} commit{'s' if commits != 1 else ''}', url)}{branch_text} in {repo}{suffix}"
     if event_type == "CreateEvent":
         ref_type = payload.get("ref_type", "item")
-        return f"- ✨ Created **{ref_type}** in `{repo_name}` · {created}"
+        ref = payload.get("ref")
+        ref_text = f" `{escape_md(ref)}`" if ref else ""
+        return f"- ✨ Created **{escape_md(ref_type)}**{ref_text} in {repo}{suffix}"
     if event_type == "PullRequestEvent":
         action = payload.get("action", "updated")
-        return f"- 🔀 {action.capitalize()} a pull request in `{repo_name}` · {created}"
+        pr = payload.get("pull_request") or {}
+        title = truncate(pr.get("title") or "pull request", 70)
+        number = pr.get("number") or payload.get("number")
+        number_text = f" #{number}" if number else ""
+        return f"- 🔀 {linked_activity(f'{str(action).capitalize()} PR{number_text}: {title}', url)} in {repo}{suffix}"
     if event_type == "IssuesEvent":
         action = payload.get("action", "updated")
-        return f"- 📝 {action.capitalize()} an issue in `{repo_name}` · {created}"
+        issue = payload.get("issue") or {}
+        title = truncate(issue.get("title") or "issue", 70)
+        number = issue.get("number")
+        number_text = f" #{number}" if number else ""
+        return f"- 📝 {linked_activity(f'{str(action).capitalize()} issue{number_text}: {title}', url)} in {repo}{suffix}"
+    if event_type == "IssueCommentEvent":
+        action = payload.get("action", "commented on")
+        issue = payload.get("issue") or {}
+        title = truncate(issue.get("title") or "issue discussion", 70)
+        return f"- 💬 {linked_activity(f'{str(action).capitalize()} a comment: {title}', url)} in {repo}{suffix}"
+    if event_type == "PullRequestReviewEvent":
+        action = payload.get("action", "reviewed")
+        pr = payload.get("pull_request") or {}
+        title = truncate(pr.get("title") or "pull request", 70)
+        return f"- 👀 {linked_activity(f'{str(action).capitalize()} a pull request review: {title}', url)} in {repo}{suffix}"
+    if event_type == "PullRequestReviewCommentEvent":
+        pr = payload.get("pull_request") or {}
+        title = truncate(pr.get("title") or "pull request", 70)
+        return f"- 💭 {linked_activity(f'Commented on PR review: {title}', url)} in {repo}{suffix}"
     if event_type == "WatchEvent":
-        return f"- ⭐ Starred `{repo_name}` · {created}"
+        return f"- ⭐ Starred {repo}{suffix}"
     if event_type == "ForkEvent":
-        return f"- 🍴 Forked `{repo_name}` · {created}"
+        return f"- 🍴 {linked_activity('Forked repository', url)} from {repo}{suffix}"
     if event_type == "ReleaseEvent":
         action = payload.get("action", "published")
-        return f"- 🚢 {action.capitalize()} a release in `{repo_name}` · {created}"
+        release = payload.get("release") or {}
+        tag = release.get("tag_name")
+        tag_text = f" `{escape_md(tag)}`" if tag else ""
+        return f"- 🚢 {linked_activity(f'{str(action).capitalize()} release', url)}{tag_text} in {repo}{suffix}"
+    if event_type == "PublicEvent":
+        return f"- 🌍 Made {repo} public{suffix}"
+    if event_type == "GollumEvent":
+        pages = payload.get("pages") or []
+        count = len(pages)
+        return f"- 📚 Updated **{count} wiki page{'s' if count != 1 else ''}** in {repo}{suffix}"
+    if event_type == "CommitCommentEvent":
+        return f"- 💬 {linked_activity('Commented on a commit', url)} in {repo}{suffix}"
     return None
 
 
-def build_activity_section(events: List[Dict[str, Any]]) -> str:
-    lines = [line for event in events if (line := describe_event(event))]
-    body = "\n".join(lines) if lines else "No recent public activity detected by the GitHub Events API."
+def build_activity_section(events: List[Dict[str, Any]], max_items: int = 6) -> str:
+    rows: List[str] = []
+    for event in events:
+        line = describe_event(event)
+        if not line:
+            continue
+        rows.append(line)
+        if len(rows) >= max_items:
+            break
+
+    if rows:
+        body = "\n".join(rows)
+    else:
+        body = "No recent public activity detected by the GitHub Events API."
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return f"""<!-- ACTIVITY_START -->
 ## ⚡ Recent Public Activity
 
+> Auto-updated from GitHub public events. Private activity cannot appear here.
+
 {body}
+
+<sub>Last activity refresh: **{now}**</sub>
 
 <!-- ACTIVITY_END -->"""
 
@@ -745,7 +834,7 @@ def main() -> int:
     content = replace_block(content, "PROJECT_STATUS", build_project_status_section(config))
     content = replace_block(content, "FEATURED_PROJECTS", build_featured_section(visible_repos, config, scores))
     content = replace_block(content, "PROJECTS", build_projects_section(visible_repos, config, scores))
-    content = replace_block(content, "ACTIVITY", build_activity_section(events))
+    content = replace_block(content, "ACTIVITY", build_activity_section(events, int(config.get("max_recent_activity", 6))))
 
     README_PATH.write_text(content, encoding="utf-8")
     print("README.md updated successfully.")

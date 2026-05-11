@@ -107,3 +107,23 @@ The profile uses `project_ci_badges` in `profile.config.json`. If a project uses
 The `ABOUT_ME` block is generated from live GitHub account and repository data. It can change when your GitHub bio, location, follower count, repository count, top languages, strongest project, latest activity, or most recently updated project changes.
 
 For normal use, the 6-hour schedule is enough. For near-instant updates after pushes or releases in another repository, copy `docs/templates/trigger-profile-update.yml` into that project and configure the `PROFILE_UPDATE_TOKEN` secret.
+
+## 10. How Recent Public Activity updates
+
+The `ACTIVITY` block is generated from GitHub's public events endpoint:
+
+```md
+<!-- ACTIVITY_START -->
+...
+<!-- ACTIVITY_END -->
+```
+
+The updater can show recent public pushes, repository creation, pull requests, issues, comments, stars, forks, releases, public repository changes, wiki updates, and commit comments.
+
+To change the number of activity rows, edit `profile.config.json`:
+
+```json
+"max_recent_activity": 6
+```
+
+Only public GitHub activity can be displayed. Private commits, private repositories, and private organization activity will not appear in the public profile README.

@@ -145,6 +145,35 @@ class ProfileAutomationTests(unittest.TestCase):
         self.assertIn("Latest public activity", section)
         self.assertIn("Last generated", section)
 
+    def test_activity_section_limits_items_and_links_prs(self):
+        events = [
+            {
+                "type": "PullRequestEvent",
+                "repo": {"name": "Sachith-02/LibraCore"},
+                "created_at": "2026-05-06T00:00:00Z",
+                "payload": {
+                    "action": "opened",
+                    "number": 7,
+                    "pull_request": {
+                        "title": "Add profile automation",
+                        "html_url": "https://github.com/Sachith-02/LibraCore/pull/7",
+                    },
+                },
+            },
+            {
+                "type": "WatchEvent",
+                "repo": {"name": "Sachith-02/Knowledge-Studio"},
+                "created_at": "2026-05-07T00:00:00Z",
+                "payload": {},
+            },
+        ]
+        section = update_profile.build_activity_section(events, max_items=1)
+        self.assertIn("ACTIVITY_START", section)
+        self.assertIn("pull/7", section)
+        self.assertIn("Opened PR #7", section)
+        self.assertNotIn("Knowledge-Studio", section)
+
+
 
 if __name__ == "__main__":
     unittest.main()
