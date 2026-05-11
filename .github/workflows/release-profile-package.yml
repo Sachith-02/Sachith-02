@@ -34,7 +34,7 @@ jobs:
           zip -r profile-automation-package.zip README.md profile.config.json .github docs assets tests -x "*/__pycache__/*"
 
       - name: 🚀 Publish release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: profile-automation-package.zip
           generate_release_notes: true
