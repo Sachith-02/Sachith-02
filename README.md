@@ -1,56 +1,41 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,65:075985,100:38bdf8&height=255&section=header&text=Sachith%20Asmadala&fontSize=58&fontColor=f8fafc&fontAlignY=36&desc=Backend%20Engineer%20%7C%20Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20Automation&descAlignY=58&descSize=18&animation=fadeIn&stroke=38bdf8&strokeWidth=1" width="100%"/>
+<img src="assets/profile-banner.svg" alt="Sachith Asmadala — Backend Developer profile banner" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2300&pause=650&color=38BDF8&center=true&vCenter=true&width=1000&lines=Building+production-style+backend+systems;Designing+secure+REST+APIs+with+Spring+Boot;Automating+my+GitHub+profile+with+Actions;Learning+distributed+systems+step+by+step;Turning+repositories+into+engineering+case+studies)](https://git.io/typing-svg)
+<br/>
 
 [![Advanced Profile Automation](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/update-profile.yml)
-[![Profile Automation Tests](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/test-profile-automation.yml)
 [![Profile Quality Gate](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/validate-profile.yml)
-[![Generate Profile Assets](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/generate-profile-assets.yml)
+[![README Lint](https://github.com/Sachith-02/Sachith-02/actions/workflows/readme-lint.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/readme-lint.yml)
+[![CodeQL](https://github.com/Sachith-02/Sachith-02/actions/workflows/codeql.yml/badge.svg)](https://github.com/Sachith-02/Sachith-02/actions/workflows/codeql.yml)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachith%20Asmadala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachith-asmadala-3b185a333/)
+[![GitHub](https://img.shields.io/badge/GitHub-Sachith--02-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sachith-02)
 ![Profile Views](https://komarev.com/ghpvc/?username=Sachith-02&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS)
-![Automation](https://img.shields.io/badge/README-Self_Updating-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0d1117)
+![README](https://img.shields.io/badge/README-self--updating-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0d1117)
+
+### Backend Developer focused on secure APIs, clean architecture, distributed systems, and automation-first engineering
+
+[About](#-about-me) · [Focus](#-professional-focus) · [Projects](#-featured-engineering-projects) · [Activity](#-recent-public-activity) · [Automation](#-automation-architecture) · [Health](#-repository-health-board)
 
 </div>
 
 ---
-
-<div align="center">
-
-### 🧭 Profile Navigation
-
-[About](#-about-me) • [Live Snapshot](#-live-engineering-snapshot) • [Actions](#%EF%B8%8F-github-actions-control-center) • [Engineering Matrix](#-engineering-matrix) • [Languages](#-language-intelligence) • [Projects](#-featured-engineering-projects) • [Activity](#-recent-public-activity) • [Architecture](#-automation-architecture)
-
-</div>
-
----
-
-<img align="right" width="330" alt="Developer animation" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 <!-- ABOUT_ME_START -->
 ## 👋 About Me
 
-I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distributed Systems** from **Sri Lanka**. This section refreshes automatically from my public GitHub account, repository metadata, languages, and recent activity.
+I am **Sachith Asmadala**, a backend-focused developer from **Sri Lanka**. I build and improve repositories like real engineering products: clean code, secure APIs, CI workflows, documentation, and release-ready structure.
 
-> Building secure APIs, clean backend systems, and automation-first developer tools.
-
-- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **0 stars**, **0 forks**, and **1 followers**
-- 🧠 Main language signal: **Python, C, Java, Yacc**
-- 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
-- 🕒 Most recently updated project: **[TaskLang](https://github.com/Sachith-02/TaskLang)** · May 01, 2026
-- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
+> This profile is designed as a professional portfolio, not a static README.
 
 ```java
-record Developer(String focus, String githubSignal, String currentProject) {}
+record Developer(String focus, String mindset, String portfolioSystem) {}
 
 var sachith = new Developer(
-    "Java 21 and Spring Boot 3 production backend design",
-    "4 original projects · 0 stars · 1 followers · 3 following",
-    "LibraCore"
+    "Java backend APIs + distributed systems",
+    "Build cleanly, test clearly, automate repeatedly",
+    "Self-updating GitHub profile powered by Actions"
 );
 ```
 
@@ -58,93 +43,62 @@ var sachith = new Developer(
 
 <!-- ABOUT_ME_END -->
 
-<br clear="right"/>
-
 ---
 
 <!-- PROFILE_SUMMARY_START -->
 ## 🧠 Live Engineering Snapshot
 
-> This block is automatically regenerated by GitHub Actions from live GitHub API data.
-
 | Metric | Value |
 |---|---:|
-| Public repositories scanned | **10** |
-| Original projects | **5** |
-| Forked projects | **5** |
-| Total stars | **0** |
-| Total forks | **0** |
-| Most used languages | **Python, C, Java, Yacc, Lex** |
-| Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-05-11 11:16 UTC** |
-
-![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
-![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Total_Stars-0-38bdf8?style=for-the-badge&logo=github&logoColor=white)
+| Public repositories scanned | Pending first automation run |
+| Original projects | Pending first automation run |
+| Total stars | Pending first automation run |
+| Most used languages | Pending first automation run |
+| Automation mode | Multi-workflow GitHub Actions |
 
 <!-- PROFILE_SUMMARY_END -->
 
 ---
 
-<!-- ACTIONS_DASHBOARD_START -->
-## 🛰️ GitHub Actions Control Center
+<!-- FOCUS_AREAS_START -->
+## 🎯 Professional Focus
 
-> This profile uses several workflows instead of one simple script.
+| Focus area | What I am building toward | Signal |
+|---|---|---|
+| Backend APIs | Secure, maintainable service layers and REST APIs | Java · Spring Boot · SQL |
+| Automation | Repeatable profile and repository workflows | GitHub Actions · Python |
+| Distributed Systems | Service design, messaging, reliability concepts | Docker · System Design |
 
-| Workflow | File | Trigger | Job |
-|---|---|---|---|
-| Advanced Profile Automation | `update-profile.yml` | Every 6 hours + manual | Regenerate README dynamic blocks |
-| Profile Automation Tests | `test-profile-automation.yml` | Push + PR | Run unit tests |
-| Profile Quality Gate | `validate-profile.yml` | Push + PR | Validate markers, scripts, config, and docs |
-| Generate Profile Assets | `generate-profile-assets.yml` | Daily + manual | Build local SVG assets |
-| Weekly Profile Maintenance | `weekly-profile-maintenance.yml` | Weekly + manual | Refresh README + health report |
-| Release Profile Package | `release-profile-package.yml` | Version tag | Package profile automation release |
-
-<!-- ACTIONS_DASHBOARD_END -->
+<!-- FOCUS_AREAS_END -->
 
 ---
 
 <!-- ENGINEERING_MATRIX_START -->
 ## 🧬 Engineering Matrix
 
-<img src="assets/engineering-matrix.svg" alt="Engineering matrix generated by GitHub Actions" width="100%"/>
+<img src="assets/engineering-matrix.svg" alt="Engineering signal matrix" width="100%"/>
 
 | Area | Signal | Evidence |
 |---|---:|---|
-| **Backend APIs** | `███████████░` **92%** | Java 21, Spring Boot 3, REST, validation, layered architecture |
-| **Security** | `██████████░░` **84%** | JWT, Spring Security, RBAC, protected routes |
-| **Data Layer** | `█████████░░░` **78%** | MySQL, PostgreSQL, migrations, repository patterns |
-| **DevOps Automation** | `███████████░` **88%** | Docker, GitHub Actions, scheduled README generation |
-| **Distributed Systems** | `█████████░░░` **74%** | Messaging, microservice thinking, fault-tolerance concepts |
-| **Documentation** | `██████████░░` **86%** | Architecture diagrams, release playbook, project topics |
+| Backend APIs | `███████████░` **92%** | Java 21, Spring Boot 3, REST, validation, layered architecture |
+| Automation | `███████████░` **88%** | Docker, GitHub Actions, scheduled README generation |
 
 <!-- ENGINEERING_MATRIX_END -->
 
 ---
 
-## 🧰 Core Tech Stack
+## 🧰 Core Stack
 
 <div align="center">
 
-**Languages**  
 ![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Backend & Security**  
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
-
-**Database, Cloud Thinking & Automation**  
 ![MySQL](https://img.shields.io/badge/MySQL_8-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Mermaid](https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white)
+![Python](https://img.shields.io/badge/Python_Automation-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
@@ -153,16 +107,7 @@ var sachith = new Developer(
 <!-- LANGUAGE_SUMMARY_START -->
 ## 📌 Language Intelligence
 
-> Automatically calculated from repository language byte data.
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) `████████░░░░░░░░░░` **42.8%**  
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) `████░░░░░░░░░░░░░░` **24.0%**  
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) `███░░░░░░░░░░░░░░░` **16.7%**  
-![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) `██░░░░░░░░░░░░░░░░` **11.3%**  
-![Lex](https://img.shields.io/badge/-Lex-555555?style=flat-square&logoColor=white) `░░░░░░░░░░░░░░░░░░` **2.0%**  
-![Makefile](https://img.shields.io/badge/-Makefile-555555?style=flat-square&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.6%**  
-![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.6%**  
-![Dockerfile](https://img.shields.io/badge/-Dockerfile-2496ED?style=flat-square&logo=docker&logoColor=white&logoColor=white) `░░░░░░░░░░░░░░░░░░` **0.2%**
+Repository language data will be calculated after the first automation run.
 
 <!-- LANGUAGE_SUMMARY_END -->
 
@@ -171,91 +116,18 @@ var sachith = new Developer(
 <!-- PROJECT_STATUS_START -->
 ## ✅ Project CI & Release Status
 
-> Badges for the strongest repositories. Update the workflow filenames in `profile.config.json` if a project uses a different CI file name.
-
 | Repository | Status |
 |---|---|
-| [LibraCore](https://github.com/Sachith-02/LibraCore) | [![LibraCore CI](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/LibraCore/actions/workflows/ci.yml) ![LibraCore release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=LibraCore%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | [![Knowledge Studio CI](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Knowledge-Studio/actions/workflows/ci.yml) ![Knowledge-Studio release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=Knowledge-Studio%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [TaskLang](https://github.com/Sachith-02/TaskLang) | [![TaskLang CI](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/TaskLang/actions/workflows/ci.yml) ![TaskLang release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=TaskLang%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
-| [Distributed_Systems_Group_30](https://github.com/Sachith-02/Distributed_Systems_Group_30) | [![Distributed Systems CI](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml/badge.svg)](https://github.com/Sachith-02/Distributed_Systems_Group_30/actions/workflows/ci.yml) ![Distributed_Systems_Group_30 release](https://img.shields.io/github/v/release/Sachith-02/Distributed_Systems_Group_30?include_prereleases&label=Distributed_Systems_Group_30%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117) |
+| Flagship repositories | CI and release badges are generated from `profile.config.json` |
 
 <!-- PROJECT_STATUS_END -->
-
----
-
-## 🧭 Professional Project Assets
-
-<img src="assets/profile-layers.svg" alt="README module system generated by GitHub Actions" width="100%"/>
-
-| Asset | Link | Why it matters |
-|---|---|---|
-| Architecture diagrams | [docs/architecture](docs/architecture) | Shows system design, not only code |
-| Repository topic plan | [docs/REPOSITORY_TOPICS.md](docs/REPOSITORY_TOPICS.md) | Makes repository cards more professional |
-| Release playbook | [docs/RELEASE_PLAYBOOK.md](docs/RELEASE_PLAYBOOK.md) | Helps repositories look maintained |
-| CI workflow template | [docs/templates/ci.yml](docs/templates/ci.yml) | Copy-ready quality automation |
-| Profile automation guide | [docs/AUTOMATION_GUIDE.md](docs/AUTOMATION_GUIDE.md) | Explains how the README updates itself |
-| Health report | [docs/PROFILE_HEALTH_REPORT.md](docs/PROFILE_HEALTH_REPORT.md) | Tracks profile automation quality |
 
 ---
 
 <!-- FEATURED_PROJECTS_START -->
 ## 🌟 Featured Engineering Projects
 
-> Selected automatically from configured priority projects and live repository scoring.
-
-<div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 [LibraCore](https://github.com/Sachith-02/LibraCore)
-
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/LibraCore?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/LibraCore?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST AP…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Nov 22, 2025</sub><br/><sub>🧮 Portfolio score: <b>59.0</b> · original, documented, Java</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio)
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Knowledge-Studio?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>48.0</b> · original, documented, Python</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📋 [TaskLang](https://github.com/Sachith-02/TaskLang)
-
-![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/TaskLang?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/TaskLang?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>56.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎲 [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)
-
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Yahtzee-Retro-Deluxe?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>45.0</b> · original, documented, C</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-</tr>
-</table>
-</div>
+Project cards will be selected automatically from repository metadata and configured priority projects.
 
 <!-- FEATURED_PROJECTS_END -->
 
@@ -264,60 +136,7 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 <!-- PROJECTS_START -->
 ## 🚀 Repository Portfolio
 
-> Automatically sorted by portfolio score: originality, recency, documentation, language signal, stars, forks, and project keywords.
-
-<div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 [LibraCore](https://github.com/Sachith-02/LibraCore)
-
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/LibraCore?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/LibraCore?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST AP…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Nov 22, 2025</sub><br/><sub>🧮 Portfolio score: <b>59.0</b> · original, documented, Java</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 📋 [TaskLang](https://github.com/Sachith-02/TaskLang)
-
-![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/TaskLang?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/TaskLang?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>56.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio)
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Knowledge-Studio?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>48.0</b> · original, documented, Python</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎲 [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)
-
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Yahtzee-Retro-Deluxe?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>45.0</b> · original, documented, C</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-</tr>
-</table>
-</div>
+Repository cards will be sorted by portfolio score after the automation workflow runs.
 
 <!-- PROJECTS_END -->
 
@@ -326,48 +145,65 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 <!-- REPO_HEALTH_START -->
 ## 🧪 Repository Health Board
 
-> Repository health data will be generated after the first automation run.
-
 | Repository | Language | Metadata | Score | Next improvement |
 |---|---|---|---:|---|
-| Updating soon | — | — | 0 | Run the automation workflow |
+| First automation run required | — | — | 0 | Run **Advanced Profile Automation** |
 
 <!-- REPO_HEALTH_END -->
+
+---
+
+<!-- ACTIONS_DASHBOARD_START -->
+## 🛰️ GitHub Actions Control Center
+
+| Workflow | File | Trigger | Job |
+|---|---|---|---|
+| Advanced Profile Automation | `update-profile.yml` | Scheduled + manual | Regenerate dynamic profile sections |
+| Profile Quality Gate | `validate-profile.yml` | Push + PR | Validate profile quality |
+| README Lint | `readme-lint.yml` | Push + PR | Keep README clean and professional |
+
+<!-- ACTIONS_DASHBOARD_END -->
 
 ---
 
 <!-- ACTIVITY_START -->
 ## ⚡ Recent Public Activity
 
-> Auto-updated from GitHub public events. Private activity cannot appear here.
-
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🔀 [Merged PR #1: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🔀 [Opened PR #1: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `v1.0.1` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `v1.0.1` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `v1.0.1` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-
-<sub>Last activity refresh: **2026-05-11 11:16 UTC**</sub>
+Public activity will appear here after the first scheduled or manual automation run.
 
 <!-- ACTIVITY_END -->
 
 ---
 
-## 📊 GitHub Stats
+<!-- ROADMAP_START -->
+## 🗺️ Portfolio Upgrade Roadmap
+
+<img src="assets/portfolio-roadmap.svg" alt="Portfolio upgrade roadmap" width="100%"/>
+
+| Stage | Goal | Deliverable |
+|---|---|---|
+| Now | Polish flagship repositories | Topics, CI badges, README diagrams, releases |
+| Next | Strengthen backend case studies | API docs, Docker Compose, tests, architecture notes |
+| Soon | Add distributed systems demos | Messaging, failure handling, system diagrams |
+
+<!-- ROADMAP_END -->
+
+---
+
+## 📊 GitHub Intelligence
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=12" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=12&langs_count=8" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Sachith-02&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_radius=14" width="49%" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sachith-02&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0&border_radius=14&langs_count=8" width="41%" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Sachith-02&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=fb923c&currStreakLabel=38bdf8&sideLabels=94a3b8&sideNums=e2e8f0&dates=64748b" width="56%"/>
+<img src="https://streak-stats.demolab.com?user=Sachith-02&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=fb923c&currStreakLabel=38bdf8&sideLabels=94a3b8&sideNums=e2e8f0&dates=64748b" width="58%" alt="GitHub streak"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sachith-02&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=fb923c&area=true&hide_border=true&area_color=0c1f30&radius=8" width="98%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sachith-02&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=fb923c&area=true&hide_border=true&area_color=0c1f30&radius=12" width="98%" alt="Contribution activity graph"/>
 
 </div>
 
@@ -376,19 +212,17 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 <!-- AUTOMATION_ARCHITECTURE_START -->
 ## 🧱 Automation Architecture
 
-<img src="assets/automation-workflow.svg" alt="Profile automation workflow generated by GitHub Actions" width="100%"/>
+<img src="assets/automation-workflow.svg" alt="Profile automation pipeline" width="100%"/>
 
 ```mermaid
 flowchart LR
-    A[Schedule / Manual / Repository Dispatch] --> B[GitHub Actions]
-    B --> C[Validate Config]
-    C --> D[Run Tests]
-    D --> E[Generate SVG Assets]
-    E --> F[Fetch GitHub API]
-    F --> G[Score Repositories]
-    G --> H[Rewrite README Blocks]
-    H --> I[Health Report]
-    I --> J[Commit Changes]
+    A[Schedule / Push / Manual] --> B[Quality Gates]
+    B --> C[Generate SVG Assets]
+    C --> D[Fetch GitHub API]
+    D --> E[Score Repositories]
+    E --> F[Rewrite README Blocks]
+    F --> G[Health Report + Snapshot]
+    G --> H[Commit Updates]
 ```
 
 <!-- AUTOMATION_ARCHITECTURE_END -->
@@ -397,14 +231,10 @@ flowchart LR
 
 <div align="center">
 
-### 🏆 GitHub Achievements
+### Engineering standard I follow
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Sachith-02&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+**Readable code · Clear APIs · Tested changes · Documented architecture · Automated delivery**
 
-<br/>
-
-> *Good software is designed, tested, secured, documented, deployed, observed, and improved.*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,35:075985,65:0f172a,100:020617&height=115&section=footer&animation=fadeIn" width="100%" alt="Footer wave"/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,35:075985,65:0f172a,100:020617&height=150&section=footer&animation=fadeIn" width="100%"/>

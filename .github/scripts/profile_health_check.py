@@ -25,6 +25,7 @@ REQUIRED_MARKERS = [
     "PROJECTS",
     "REPO_HEALTH",
     "ACTIVITY",
+    "ROADMAP",
     "AUTOMATION_ARCHITECTURE",
 ]
 
@@ -34,13 +35,22 @@ REQUIRED_FILES = [
     ".github/scripts/update_profile.py",
     ".github/scripts/generate_profile_assets.py",
     ".github/scripts/profile_health_check.py",
+    ".github/scripts/readme_lint.py",
+    ".github/scripts/profile_snapshot.py",
     ".github/workflows/update-profile.yml",
     ".github/workflows/test-profile-automation.yml",
     ".github/workflows/validate-profile.yml",
     ".github/workflows/generate-profile-assets.yml",
     ".github/workflows/weekly-profile-maintenance.yml",
+    ".github/workflows/readme-lint.yml",
+    ".github/workflows/profile-snapshot.yml",
+    ".github/workflows/codeql.yml",
+    ".github/workflows/dependency-review.yml",
+    ".github/dependabot.yml",
+    "assets/profile-banner.svg",
     "assets/engineering-matrix.svg",
     "assets/automation-workflow.svg",
+    "assets/portfolio-roadmap.svg",
 ]
 
 REQUIRED_CONFIG_KEYS = [

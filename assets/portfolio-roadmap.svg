@@ -1,0 +1,41 @@
+<svg width="1100" height="340" viewBox="0 0 1100 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Generated GitHub profile asset">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="340" rx="26" fill="url(#bg)"/>
+  <circle cx="1030" cy="65" r="120" fill="#38bdf8" opacity="0.08"/>
+  <circle cx="80" cy="295" r="150" fill="#22c55e" opacity="0.07"/>
+  <text x="44" y="58" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Portfolio Upgrade Roadmap</text>
+  <text x="44" y="88" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="15">Clean profile growth plan generated from profile.config.json</text>
+  <rect x="56" y="145" width="238" height="128" rx="22" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <text x="80" y="183" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900">Now</text>
+  <text x="80" y="217" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">Polish flagship repositories</text>
+  <text x="80" y="245" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">Descriptions, topics, CI badges, README diag</text>
+  <path d="M 299 209 H 311" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+  <rect x="316" y="145" width="238" height="128" rx="22" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <text x="340" y="183" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900">Next</text>
+  <text x="340" y="217" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">Strengthen backend case studies</text>
+  <text x="340" y="245" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">API docs, architecture decision records, Doc</text>
+  <path d="M 559 209 H 571" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+  <rect x="576" y="145" width="238" height="128" rx="22" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <text x="600" y="183" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900">Soon</text>
+  <text x="600" y="217" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">Add distributed systems demonstrat</text>
+  <text x="600" y="245" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">Message queues, service boundaries, fault-ha</text>
+  <path d="M 819 209 H 831" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+  <rect x="836" y="145" width="238" height="128" rx="22" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <text x="860" y="183" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900">Later</text>
+  <text x="860" y="217" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">Publish portfolio-grade releases</text>
+  <text x="860" y="245" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">Versioned releases, changelogs, demo screens</text>
+</svg>
