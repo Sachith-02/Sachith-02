@@ -1,0 +1,63 @@
+<svg width="1100" height="360" viewBox="0 0 1100 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Generated GitHub profile asset">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="360" rx="26" fill="url(#bg)"/>
+  <circle cx="1030" cy="65" r="120" fill="#38bdf8" opacity="0.08"/>
+  <circle cx="80" cy="315" r="150" fill="#22c55e" opacity="0.07"/>
+  <text x="44" y="58" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Profile Automation Pipeline</text>
+  <text x="44" y="88" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="15">6 workflows coordinate validation, generation, maintenance, and release packaging</text>
+  <rect x="48" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="78" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="72" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">1</text>
+  <text x="68" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">Trigger</text>
+  <text x="68" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">schedule / push / dispatch</text>
+  <path d="M 204 206 H 218" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M 212 198 L 222 206 L 212 214" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+  <rect x="226" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="256" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="250" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">2</text>
+  <text x="246" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">Quality Gate</text>
+  <text x="246" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">JSON + tests + markers</text>
+  <path d="M 382 206 H 396" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M 390 198 L 400 206 L 390 214" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+  <rect x="404" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="434" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="428" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">3</text>
+  <text x="424" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">Assets</text>
+  <text x="424" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">SVG generation</text>
+  <path d="M 560 206 H 574" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M 568 198 L 578 206 L 568 214" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+  <rect x="582" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="612" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="606" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">4</text>
+  <text x="602" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">GitHub API</text>
+  <text x="602" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">repos + languages + events</text>
+  <path d="M 738 206 H 752" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M 746 198 L 756 206 L 746 214" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+  <rect x="760" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="790" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="784" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">5</text>
+  <text x="780" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">README</text>
+  <text x="780" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">dynamic block rewrite</text>
+  <path d="M 916 206 H 930" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+  <path d="M 924 198 L 934 206 L 924 214" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+  <rect x="938" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="968" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
+  <text x="962" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">6</text>
+  <text x="958" y="218" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="17" font-weight="800">Commit</text>
+  <text x="958" y="242" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">bot pushes update</text>
+  <text x="44" y="318" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial" font-size="14">Result: a profile README that behaves like a small production system — tested, scheduled, observable, and self-updating.</text>
+</svg>

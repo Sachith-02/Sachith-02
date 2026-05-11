@@ -1,0 +1,172 @@
+{
+  "username": "Sachith-02",
+  "display_name": "Sachith Asmadala",
+  "location": "Sri Lanka",
+  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
+  "tagline": "Building secure APIs, clean backend systems, and automation-first developer tools.",
+  "current_focus": [
+    "Java 21 and Spring Boot 3 production backend design",
+    "JWT authentication, role-based access control, and REST API security",
+    "Dockerized deployment, CI/CD, and GitHub Actions automation",
+    "Distributed systems, messaging, and fault-tolerant architecture"
+  ],
+  "featured_repositories": [
+    "LibraCore",
+    "Knowledge-Studio",
+    "TaskLang",
+    "Distributed_Systems_Group_30"
+  ],
+  "exclude_repositories": [
+    "Sachith-02"
+  ],
+  "include_forks": false,
+  "max_repo_cards": 12,
+  "max_featured_cards": 4,
+  "max_recent_activity": 6,
+  "language_scan_limit": 25,
+  "linkedin_url": "https://www.linkedin.com/in/sachith-asmadala-3b185a333/",
+  "theme_color": "38bdf8",
+  "project_ci_badges": [
+    {
+      "repository": "LibraCore",
+      "workflow": "ci.yml",
+      "label": "LibraCore CI"
+    },
+    {
+      "repository": "Knowledge-Studio",
+      "workflow": "ci.yml",
+      "label": "Knowledge Studio CI"
+    },
+    {
+      "repository": "TaskLang",
+      "workflow": "ci.yml",
+      "label": "TaskLang CI"
+    },
+    {
+      "repository": "Distributed_Systems_Group_30",
+      "workflow": "ci.yml",
+      "label": "Distributed Systems CI"
+    }
+  ],
+  "topic_recommendations": {
+    "LibraCore": [
+      "java",
+      "spring-boot",
+      "spring-security",
+      "jwt",
+      "rest-api",
+      "mysql",
+      "docker",
+      "backend"
+    ],
+    "Knowledge-Studio": [
+      "rag",
+      "llm",
+      "knowledge-base",
+      "python",
+      "backend",
+      "api",
+      "automation"
+    ],
+    "TaskLang": [
+      "compiler",
+      "parser",
+      "bison",
+      "flex",
+      "c",
+      "language-design",
+      "cli"
+    ],
+    "Distributed_Systems_Group_30": [
+      "distributed-systems",
+      "microservices",
+      "messaging",
+      "java",
+      "docker",
+      "fault-tolerance"
+    ]
+  },
+  "profile_workflows": [
+    {
+      "name": "Advanced Profile Automation",
+      "file": "update-profile.yml",
+      "trigger": "Every 6 hours + manual + dispatch",
+      "purpose": "Regenerates README from live GitHub API data"
+    },
+    {
+      "name": "Profile Automation Tests",
+      "file": "test-profile-automation.yml",
+      "trigger": "Push + PR + manual",
+      "purpose": "Runs Python unit tests and compile checks"
+    },
+    {
+      "name": "Profile Quality Gate",
+      "file": "validate-profile.yml",
+      "trigger": "Push + PR + manual",
+      "purpose": "Validates README markers, config, docs, and workflows"
+    },
+    {
+      "name": "Generate Profile Assets",
+      "file": "generate-profile-assets.yml",
+      "trigger": "Daily + manual",
+      "purpose": "Builds SVG architecture and skill assets"
+    },
+    {
+      "name": "Weekly Profile Maintenance",
+      "file": "weekly-profile-maintenance.yml",
+      "trigger": "Weekly + manual",
+      "purpose": "Refreshes README, SVGs, and health report together"
+    },
+    {
+      "name": "Release Profile Package",
+      "file": "release-profile-package.yml",
+      "trigger": "Version tag",
+      "purpose": "Creates a downloadable profile automation release package"
+    }
+  ],
+  "engineering_domains": [
+    {
+      "domain": "Backend APIs",
+      "level": 92,
+      "evidence": "Java 21, Spring Boot 3, REST, validation, layered architecture"
+    },
+    {
+      "domain": "Security",
+      "level": 84,
+      "evidence": "JWT, Spring Security, RBAC, protected routes"
+    },
+    {
+      "domain": "Data Layer",
+      "level": 78,
+      "evidence": "MySQL, PostgreSQL, migrations, repository patterns"
+    },
+    {
+      "domain": "DevOps Automation",
+      "level": 88,
+      "evidence": "Docker, GitHub Actions, scheduled README generation"
+    },
+    {
+      "domain": "Distributed Systems",
+      "level": 74,
+      "evidence": "Messaging, microservice thinking, fault-tolerance concepts"
+    },
+    {
+      "domain": "Documentation",
+      "level": 86,
+      "evidence": "Architecture diagrams, release playbook, project topics"
+    }
+  ],
+  "profile_sections": [
+    "About Me",
+    "Live Snapshot",
+    "Actions Dashboard",
+    "Engineering Matrix",
+    "Language Intelligence",
+    "Project Status",
+    "Featured Projects",
+    "Portfolio",
+    "Recent Activity",
+    "Architecture"
+  ],
+  "automation_badge_style": "for-the-badge"
+}

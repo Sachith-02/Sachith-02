@@ -1,0 +1,55 @@
+name: 🧰 Weekly Profile Maintenance
+
+on:
+  schedule:
+    - cron: "20 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-profile-maintenance
+  cancel-in-progress: true
+
+jobs:
+  maintain-profile:
+    name: Refresh README, assets, and health report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 🧪 Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: 🎨 Regenerate assets
+        run: python .github/scripts/generate_profile_assets.py
+
+      - name: 🔄 Regenerate README
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python .github/scripts/update_profile.py
+
+      - name: 🩺 Generate health report
+        run: python .github/scripts/profile_health_check.py
+
+      - name: 💾 Commit weekly maintenance changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/*.svg docs/PROFILE_HEALTH_REPORT.md
+          if git diff --staged --quiet; then
+            echo "No weekly maintenance changes."
+          else
+            git commit -m "🧰 Weekly profile maintenance [skip ci]"
+            git push
+          fi
