@@ -22,21 +22,21 @@
   <rect x="44" y="126" width="196" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
   <text x="60" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">About Me</text>
   <rect x="256" y="126" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="272" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Profile Summary</text>
+  <text x="272" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Live Snapshot</text>
   <rect x="448" y="126" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="464" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Professional Focus</text>
+  <text x="464" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Actions Dashboard</text>
   <rect x="640" y="126" width="196" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="656" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Actions Dashboard</text>
+  <text x="656" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Engineering Matrix</text>
   <rect x="852" y="126" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="868" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Engineering Matrix</text>
+  <text x="868" y="153" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Language Intelligence</text>
   <rect x="44" y="188" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="60" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Language Intelligence</text>
+  <text x="60" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Project Status</text>
   <rect x="236" y="188" width="196" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="252" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Project Status</text>
+  <text x="252" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Featured Projects</text>
   <rect x="448" y="188" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="464" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Featured Projects</text>
+  <text x="464" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Portfolio</text>
   <rect x="640" y="188" width="176" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="656" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Portfolio</text>
+  <text x="656" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Recent Activity</text>
   <rect x="832" y="188" width="196" height="42" rx="14" fill="#0f172a" opacity="0.9"/>
-  <text x="848" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Repository Health</text>
+  <text x="848" y="215" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">Architecture</text>
 </svg>

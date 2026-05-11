@@ -18,7 +18,7 @@
   <circle cx="1030" cy="65" r="120" fill="#38bdf8" opacity="0.08"/>
   <circle cx="80" cy="315" r="150" fill="#22c55e" opacity="0.07"/>
   <text x="44" y="58" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Profile Automation Pipeline</text>
-  <text x="44" y="88" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="15">10 workflows coordinate validation, generation, maintenance, and release packaging</text>
+  <text x="44" y="88" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="15">6 workflows coordinate validation, generation, maintenance, and release packaging</text>
   <rect x="48" y="148" width="150" height="116" rx="20" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>
   <circle cx="78" cy="178" r="15" fill="#38bdf8" opacity="0.18"/>
   <text x="72" y="184" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">1</text>
