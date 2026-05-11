@@ -39,14 +39,20 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python .github/scripts/update_profile.py
 
+      - name: 📸 Generate snapshot
+        run: python .github/scripts/profile_snapshot.py
+
       - name: 🩺 Generate health report
         run: python .github/scripts/profile_health_check.py
+
+      - name: 🧼 Lint final README
+        run: python .github/scripts/readme_lint.py
 
       - name: 💾 Commit weekly maintenance changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/*.svg docs/PROFILE_HEALTH_REPORT.md
+          git add README.md assets/*.svg docs/PROFILE_HEALTH_REPORT.md docs/PROFILE_SNAPSHOT.md docs/profile-snapshot.json
           if git diff --staged --quiet; then
             echo "No weekly maintenance changes."
           else

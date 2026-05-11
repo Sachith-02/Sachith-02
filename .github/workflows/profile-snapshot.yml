@@ -1,0 +1,51 @@
+name: 📸 Profile Snapshot
+
+on:
+  schedule:
+    - cron: "45 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - profile.config.json
+      - .github/workflows/**
+      - .github/scripts/profile_snapshot.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snapshot
+  cancel-in-progress: true
+
+jobs:
+  snapshot:
+    name: Generate audit snapshot
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📸 Generate snapshot
+        run: python .github/scripts/profile_snapshot.py
+
+      - name: 💾 Commit snapshot updates
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/profile-snapshot.json docs/PROFILE_SNAPSHOT.md
+          if git diff --staged --quiet; then
+            echo "No snapshot changes."
+          else
+            git commit -m "📸 Update profile snapshot [skip ci]"
+            git push
+          fi

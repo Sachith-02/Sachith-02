@@ -54,6 +54,64 @@ def svg_wrapper(width: int, height: int, content: str) -> str:
 '''
 
 
+
+def generate_profile_banner(config: Dict[str, Any]) -> str:
+    width = 1200
+    height = 360
+    name = esc(config.get("display_name", config.get("username", "Developer")))
+    headline = esc(config.get("headline", "Backend Developer"))
+    tagline = esc(config.get("tagline", "Building clean software with automation-first engineering habits."))
+    focus = config.get("current_focus") or []
+    chips = [esc(str(item).split(" and ")[0][:34]) for item in focus[:4]]
+    items = [
+        '  <text x="60" y="86" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="800">BACKEND · AUTOMATION · SYSTEM DESIGN</text>',
+        f'  <text x="60" y="145" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="52" font-weight="900">{name}</text>',
+        f'  <text x="62" y="190" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="700">{headline}</text>',
+        f'  <text x="62" y="226" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="16">{tagline}</text>',
+        '  <rect x="860" y="62" width="260" height="220" rx="28" fill="#0f172a" opacity="0.88" filter="url(#shadow)"/>',
+        '  <text x="892" y="110" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="18" font-weight="800">Profile System</text>',
+        '  <text x="892" y="145" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="34" font-weight="900">CI/CD</text>',
+        '  <text x="892" y="177" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial" font-size="14">Self-updating README</text>',
+        '  <text x="892" y="204" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial" font-size="14">Generated SVG assets</text>',
+        '  <text x="892" y="231" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial" font-size="14">Health checks + snapshots</text>',
+    ]
+    x = 62
+    y = 270
+    for chip in chips:
+        w = 18 + len(chip) * 8
+        if x + w > 790:
+            break
+        items.append(f'  <rect x="{x}" y="{y}" width="{w}" height="34" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity="0.38"/>')
+        items.append(f'  <text x="{x + 14}" y="{y + 22}" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700">{chip}</text>')
+        x += w + 12
+    return svg_wrapper(width, height, "\n".join(items))
+
+
+def generate_portfolio_roadmap(config: Dict[str, Any]) -> str:
+    width = 1100
+    height = 340
+    roadmap = config.get("portfolio_roadmap") or []
+    items = [
+        '  <text x="44" y="58" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Portfolio Upgrade Roadmap</text>',
+        '  <text x="44" y="88" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="15">Clean profile growth plan generated from profile.config.json</text>',
+    ]
+    x = 56
+    y = 145
+    card_w = 238
+    gap = 22
+    for index, item in enumerate(roadmap[:4]):
+        stage = esc(item.get("stage", f"Step {index + 1}"))
+        goal = esc(item.get("goal", "Improve portfolio"))[:34]
+        deliverable = esc(item.get("deliverable", "Documented deliverable"))[:44]
+        items.append(f'  <rect x="{x}" y="{y}" width="{card_w}" height="128" rx="22" fill="#0f172a" opacity="0.9" filter="url(#shadow)"/>')
+        items.append(f'  <text x="{x + 24}" y="{y + 38}" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="900">{stage}</text>')
+        items.append(f'  <text x="{x + 24}" y="{y + 72}" fill="#f8fafc" font-family="Inter, Segoe UI, Arial" font-size="16" font-weight="800">{goal}</text>')
+        items.append(f'  <text x="{x + 24}" y="{y + 100}" fill="#94a3b8" font-family="Inter, Segoe UI, Arial" font-size="12">{deliverable}</text>')
+        if index < min(len(roadmap),4) - 1:
+            items.append(f'  <path d="M {x + card_w + 5} {y + 64} H {x + card_w + gap - 5}" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.65"/>')
+        x += card_w + gap
+    return svg_wrapper(width, height, "\n".join(items))
+
 def generate_engineering_matrix(config: Dict[str, Any]) -> str:
     domains: List[Dict[str, Any]] = config.get("engineering_domains") or []
     width = 1100
@@ -138,9 +196,11 @@ def main() -> int:
     config = load_config()
     ASSETS_DIR.mkdir(exist_ok=True)
     outputs = {
+        "profile-banner.svg": generate_profile_banner(config),
         "engineering-matrix.svg": generate_engineering_matrix(config),
         "automation-workflow.svg": generate_automation_workflow(config),
         "profile-layers.svg": generate_profile_layers(config),
+        "portfolio-roadmap.svg": generate_portfolio_roadmap(config),
     }
     for filename, content in outputs.items():
         (ASSETS_DIR / filename).write_text(content, encoding="utf-8")

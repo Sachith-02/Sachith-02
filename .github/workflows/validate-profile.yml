@@ -40,5 +40,11 @@ jobs:
       - name: 🧪 Run unit tests
         run: python -m unittest discover -s tests -v
 
+      - name: 🧼 Lint README professionalism
+        run: python .github/scripts/readme_lint.py
+
+      - name: 📸 Generate profile snapshot
+        run: python .github/scripts/profile_snapshot.py
+
       - name: 🩺 Check profile structure
         run: python .github/scripts/profile_health_check.py --check-only

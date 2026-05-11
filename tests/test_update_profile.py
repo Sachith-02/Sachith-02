@@ -174,6 +174,81 @@ class ProfileAutomationTests(unittest.TestCase):
         self.assertNotIn("Knowledge-Studio", section)
 
 
+    def test_actions_dashboard_section_renders_multiple_workflows(self):
+        config = {
+            "username": "Sachith-02",
+            "profile_workflows": [
+                {"name": "Advanced Profile Automation", "file": "update-profile.yml", "trigger": "schedule", "purpose": "Update README"},
+                {"name": "Profile Quality Gate", "file": "validate-profile.yml", "trigger": "pull_request", "purpose": "Validate profile"},
+            ],
+        }
+        section = update_profile.build_actions_dashboard_section(config)
+        self.assertIn("ACTIONS_DASHBOARD_START", section)
+        self.assertIn("update-profile.yml", section)
+        self.assertIn("validate-profile.yml", section)
+        self.assertIn("actions/workflows/update-profile.yml/badge.svg", section)
+
+    def test_engineering_matrix_section_uses_svg_and_configured_domains(self):
+        repo = self.sample_repo(name="LibraCore")
+        scores = {"LibraCore": update_profile.score_repo(repo)}
+        config = {
+            "username": "Sachith-02",
+            "engineering_domains": [
+                {"domain": "Backend APIs", "level": 92, "evidence": "Spring Boot"}
+            ],
+        }
+        section = update_profile.build_engineering_matrix_section([repo], {"Java": 100}, config, scores)
+        self.assertIn("ENGINEERING_MATRIX_START", section)
+        self.assertIn("assets/engineering-matrix.svg", section)
+        self.assertIn("Backend APIs", section)
+        self.assertIn("LibraCore", section)
+
+    def test_repo_health_section_suggests_missing_topics(self):
+        repo = self.sample_repo(topics=[])
+        scores = {"LibraCore": update_profile.score_repo(repo)}
+        section = update_profile.build_repo_health_section([repo], {"username": "Sachith-02"}, scores)
+        self.assertIn("REPO_HEALTH_START", section)
+        self.assertIn("Add GitHub topics", section)
+        self.assertIn("LibraCore", section)
+
+    def test_automation_architecture_section_includes_mermaid_and_counts(self):
+        config = {
+            "profile_workflows": [{"file": "update-profile.yml"}, {"file": "validate-profile.yml"}],
+            "profile_sections": ["About", "Projects", "Activity"],
+        }
+        section = update_profile.build_automation_architecture_section(config)
+        self.assertIn("AUTOMATION_ARCHITECTURE_START", section)
+        self.assertIn("```mermaid", section)
+        self.assertIn("**2 profile workflows**", section)
+        self.assertIn("**3 README modules**", section)
+
+    def test_focus_areas_section_is_professional_and_config_driven(self):
+        config = {
+            "professional_focus_areas": [
+                {"title": "Backend APIs", "summary": "Secure REST services", "signal": "Java · Spring Boot"}
+            ],
+            "open_to": ["Backend internships"],
+            "profile_principles": ["Clean code before clever code"],
+        }
+        section = update_profile.build_focus_areas_section(config)
+        self.assertIn("FOCUS_AREAS_START", section)
+        self.assertIn("Backend APIs", section)
+        self.assertIn("Backend internships", section)
+        self.assertIn("Clean code before clever code", section)
+
+    def test_roadmap_section_includes_generated_asset_and_quality_gates(self):
+        config = {
+            "portfolio_roadmap": [
+                {"stage": "Now", "goal": "Polish repositories", "deliverable": "CI badges and releases"}
+            ],
+            "quality_gates": ["README marker validation", "CodeQL security scan"],
+        }
+        section = update_profile.build_roadmap_section(config)
+        self.assertIn("ROADMAP_START", section)
+        self.assertIn("assets/portfolio-roadmap.svg", section)
+        self.assertIn("Polish repositories", section)
+        self.assertIn("CodeQL security scan", section)
+
 
 if __name__ == "__main__":
     unittest.main()
