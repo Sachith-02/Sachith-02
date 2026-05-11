@@ -2,8 +2,8 @@
   "username": "Sachith-02",
   "display_name": "Sachith Asmadala",
   "location": "Sri Lanka",
-  "headline": "Backend Developer | Java \u00b7 Spring Boot \u00b7 Distributed Systems \u00b7 Automation",
-  "tagline": "I design backend systems with clean architecture, secure APIs, strong documentation, and automation-first engineering habits.",
+  "headline": "Backend Engineer | Java \u00b7 Spring Boot \u00b7 Distributed Systems",
+  "tagline": "Building secure APIs, clean backend systems, and automation-first developer tools.",
   "current_focus": [
     "Java 21 and Spring Boot 3 production backend design",
     "JWT authentication, role-based access control, and REST API security",
@@ -91,60 +91,36 @@
       "name": "Advanced Profile Automation",
       "file": "update-profile.yml",
       "trigger": "Every 6 hours + manual + dispatch",
-      "purpose": "Regenerates README modules from live GitHub data"
+      "purpose": "Regenerates README from live GitHub API data"
     },
     {
       "name": "Profile Automation Tests",
       "file": "test-profile-automation.yml",
       "trigger": "Push + PR + manual",
-      "purpose": "Runs unit tests across Python versions"
+      "purpose": "Runs Python unit tests and compile checks"
     },
     {
       "name": "Profile Quality Gate",
       "file": "validate-profile.yml",
       "trigger": "Push + PR + manual",
-      "purpose": "Validates markers, config, docs, scripts, and workflows"
+      "purpose": "Validates README markers, config, docs, and workflows"
     },
     {
       "name": "Generate Profile Assets",
       "file": "generate-profile-assets.yml",
       "trigger": "Daily + manual",
-      "purpose": "Builds local SVG banner, matrices, and architecture assets"
-    },
-    {
-      "name": "README Lint",
-      "file": "readme-lint.yml",
-      "trigger": "Push + PR + manual",
-      "purpose": "Checks README professionalism, local images, anchors, and marker hygiene"
-    },
-    {
-      "name": "Profile Snapshot",
-      "file": "profile-snapshot.yml",
-      "trigger": "Daily + manual",
-      "purpose": "Creates JSON and Markdown snapshots for auditability"
-    },
-    {
-      "name": "CodeQL Security Scan",
-      "file": "codeql.yml",
-      "trigger": "Push + PR + weekly",
-      "purpose": "Scans Python automation scripts for security issues"
-    },
-    {
-      "name": "Dependency Review",
-      "file": "dependency-review.yml",
-      "trigger": "Pull request",
-      "purpose": "Reviews dependency changes before merging"
+      "purpose": "Builds SVG architecture and skill assets"
     },
     {
       "name": "Weekly Profile Maintenance",
       "file": "weekly-profile-maintenance.yml",
       "trigger": "Weekly + manual",
-      "purpose": "Refreshes README, SVGs, snapshots, and health report together"
+      "purpose": "Refreshes README, SVGs, and health report together"
     },
     {
       "name": "Release Profile Package",
       "file": "release-profile-package.yml",
-      "trigger": "Version tag + manual",
+      "trigger": "Version tag",
       "purpose": "Creates a downloadable profile automation release package"
     }
   ],
@@ -182,81 +158,15 @@
   ],
   "profile_sections": [
     "About Me",
-    "Profile Summary",
-    "Professional Focus",
+    "Live Snapshot",
     "Actions Dashboard",
     "Engineering Matrix",
     "Language Intelligence",
     "Project Status",
     "Featured Projects",
     "Portfolio",
-    "Repository Health",
     "Recent Activity",
-    "Roadmap",
-    "Automation Architecture"
+    "Architecture"
   ],
-  "automation_badge_style": "for-the-badge",
-  "open_to": [
-    "Backend engineering internships and junior developer roles",
-    "Java / Spring Boot API projects",
-    "Distributed systems, automation, and developer tooling collaborations"
-  ],
-  "professional_focus_areas": [
-    {
-      "title": "Production-style Backend APIs",
-      "summary": "Layered Spring Boot services, validation, DTO mapping, security boundaries, and database-backed workflows.",
-      "signal": "Java 21 \u00b7 Spring Boot 3 \u00b7 REST \u00b7 SQL"
-    },
-    {
-      "title": "Security-aware Engineering",
-      "summary": "JWT authentication, role-based access control, clear error handling, and safer API design patterns.",
-      "signal": "Spring Security \u00b7 JWT \u00b7 RBAC"
-    },
-    {
-      "title": "Automation & CI/CD",
-      "summary": "GitHub Actions workflows that test, validate, generate assets, refresh the README, and publish profile packages.",
-      "signal": "Actions \u00b7 Python \u00b7 Quality Gates"
-    },
-    {
-      "title": "Distributed Systems Learning",
-      "summary": "Messaging, microservice boundaries, fault-tolerance concepts, observability thinking, and scalable architecture notes.",
-      "signal": "Docker \u00b7 Messaging \u00b7 System Design"
-    }
-  ],
-  "profile_principles": [
-    "Clean code before clever code",
-    "Every strong project deserves tests, docs, CI, and releases",
-    "Architecture should be understandable from the README",
-    "Automation should remove repeated manual work"
-  ],
-  "portfolio_roadmap": [
-    {
-      "stage": "Now",
-      "goal": "Polish flagship repositories",
-      "deliverable": "Descriptions, topics, CI badges, README diagrams, and first tagged releases"
-    },
-    {
-      "stage": "Next",
-      "goal": "Strengthen backend case studies",
-      "deliverable": "API docs, architecture decision records, Docker Compose setups, and test coverage summaries"
-    },
-    {
-      "stage": "Soon",
-      "goal": "Add distributed systems demonstrations",
-      "deliverable": "Message queues, service boundaries, fault-handling notes, and deployment diagrams"
-    },
-    {
-      "stage": "Later",
-      "goal": "Publish portfolio-grade releases",
-      "deliverable": "Versioned releases, changelogs, demo screenshots, and technical writeups"
-    }
-  ],
-  "quality_gates": [
-    "README marker validation",
-    "Python automation unit tests",
-    "Generated SVG asset checks",
-    "Profile snapshot artifact",
-    "Link and Markdown structure checks",
-    "CodeQL security scan for automation scripts"
-  ]
+  "automation_badge_style": "for-the-badge"
 }
