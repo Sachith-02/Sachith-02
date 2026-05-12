@@ -33,11 +33,11 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 
 > Building secure APIs, clean backend systems, and automation-first developer tools.
 
-- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **0 stars**, **0 forks**, and **1 followers**
+- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **3 stars**, **0 forks**, and **1 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
-- 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
-- 🕒 Most recently updated project: **[Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio)** · May 11, 2026
-- ⚡ Latest public activity: ⭐ Starred [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
+- 🚀 Strongest active project: **[TaskLang](https://github.com/Sachith-02/TaskLang)** — A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency…
+- 🕒 Most recently updated project: **[Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)** · May 12, 2026
+- ⚡ Latest public activity: ⭐ Starred [`Sachith-02/Sustain-Insight---front-end`](https://github.com/Sachith-02/Sustain-Insight---front-end) · May 12, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -45,12 +45,12 @@ record Developer(String focus, String githubSignal, String currentProject) {}
 
 var sachith = new Developer(
     "Java 21 and Spring Boot 3 production backend design",
-    "4 original projects · 0 stars · 1 followers · 3 following",
-    "LibraCore"
+    "4 original projects · 3 stars · 1 followers · 3 following",
+    "TaskLang"
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-12 08:52 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-12 14:48 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -82,15 +82,15 @@ var sachith = new Developer(
 | Public repositories scanned | **10** |
 | Original projects | **5** |
 | Forked projects | **5** |
-| Total stars | **1** |
+| Total stars | **8** |
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-05-12 08:52 UTC** |
+| Last automation run | **2026-05-12 14:48 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Total_Stars-1-38bdf8?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Total_Stars-8-38bdf8?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- PROFILE_SUMMARY_END -->
 
@@ -110,7 +110,7 @@ var sachith = new Developer(
 | **Distributed Systems** | `█████████░░░` **74%** | Messaging, microservice thinking, fault-tolerance concepts |
 | **Documentation** | `██████████░░` **86%** | Architecture diagrams, release playbook, project topics |
 
-**Current strongest repository signal:** [LibraCore](https://github.com/Sachith-02/LibraCore)  
+**Current strongest repository signal:** [TaskLang](https://github.com/Sachith-02/TaskLang)  
 **Top language signal:** Python, C, Java, Yacc, Lex
 
 <!-- ENGINEERING_MATRIX_END -->
@@ -220,7 +220,7 @@ LibraCore is a secure, production‑style library and asset management backend b
 
 A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
 
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 11, 2026</sub><br/><sub>🧮 Portfolio score: <b>57.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>61.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ A modern Streamlit-based RAG app for document upload, semantic search, grounded 
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>56.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>64.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -244,7 +244,7 @@ A DSL for task scheduling — Flex lexer + Bison parser with dependency validati
 
 A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
 
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>45.0</b> · original, documented, C</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>58.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -265,6 +265,30 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 <tr>
 <td width="50%" valign="top">
 
+<h3>📋 <a href="https://github.com/Sachith-02/TaskLang">TaskLang</a></h3>
+
+![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/TaskLang?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/TaskLang?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
+
+A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
+
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>64.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🧠 <a href="https://github.com/Sachith-02/Knowledge-Studio">Knowledge-Studio</a></h3>
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Knowledge-Studio?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
+
+A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
+
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>61.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <h3>📚 <a href="https://github.com/Sachith-02/LibraCore">LibraCore</a></h3>
 
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/LibraCore?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/LibraCore?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/LibraCore?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
@@ -276,37 +300,13 @@ LibraCore is a secure, production‑style library and asset management backend b
 </td>
 <td width="50%" valign="top">
 
-<h3>🧠 <a href="https://github.com/Sachith-02/Knowledge-Studio">Knowledge-Studio</a></h3>
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Knowledge-Studio?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Knowledge-Studio?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Knowledge-Studio?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 11, 2026</sub><br/><sub>🧮 Portfolio score: <b>57.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>📋 <a href="https://github.com/Sachith-02/TaskLang">TaskLang</a></h3>
-
-![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/TaskLang?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/TaskLang?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/TaskLang?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
-
-A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
-
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated May 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>56.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
-
-</td>
-<td width="50%" valign="top">
-
 <h3>🎲 <a href="https://github.com/Sachith-02/Yahtzee-Retro-Deluxe">Yahtzee-Retro-Deluxe</a></h3>
 
 ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) ![Stars](https://img.shields.io/github/stars/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/Yahtzee-Retro-Deluxe?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/Yahtzee-Retro-Deluxe?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
 
 A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
 
-<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Mar 21, 2026</sub><br/><sub>🧮 Portfolio score: <b>45.0</b> · original, documented, C</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 1 stars · 🍴 0 forks · 🕒 Updated May 12, 2026</sub><br/><sub>🧮 Portfolio score: <b>58.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -324,10 +324,10 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 | Repository | Language | Metadata | Score | Next improvement |
 |---|---|---|---:|---|
+| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **64.0** | Add GitHub topics |
+| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **61.0** | Add GitHub topics |
 | [LibraCore](https://github.com/Sachith-02/LibraCore) | Java | ✅ description · `0` topics | **59.0** | Add GitHub topics |
-| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **57.0** | Add GitHub topics |
-| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **56.0** | Add GitHub topics |
-| [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **45.0** | Add GitHub topics |
+| [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **58.0** | Add GitHub topics |
 
 <!-- REPO_HEALTH_END -->
 
@@ -338,14 +338,14 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
-- ⭐ Starred [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `main` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `v1.0.1` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · May 11, 2026
+- ⭐ Starred [`Sachith-02/Sustain-Insight---front-end`](https://github.com/Sachith-02/Sustain-Insight---front-end) · May 12, 2026
+- ⭐ Starred [`Sachith-02/Yahtzee-Retro-Deluxe`](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) · May 12, 2026
+- ⭐ Starred [`Sachith-02/Distributed_Systems_Group_30`](https://github.com/Sachith-02/Distributed_Systems_Group_30) · May 12, 2026
+- ⭐ Starred [`Sachith-02/Smart_Agricultural_Platform_Frontend`](https://github.com/Sachith-02/Smart_Agricultural_Platform_Frontend) · May 12, 2026
+- ⭐ Starred [`Sachith-02/Smart_Agricultural_Platform_Backend`](https://github.com/Sachith-02/Smart_Agricultural_Platform_Backend) · May 12, 2026
+- ⭐ Starred [`Sachith-02/TaskLang`](https://github.com/Sachith-02/TaskLang) · May 12, 2026
 
-<sub>Last activity refresh: **2026-05-12 08:52 UTC**</sub>
+<sub>Last activity refresh: **2026-05-12 14:48 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
