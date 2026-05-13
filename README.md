@@ -37,7 +37,7 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[TaskLang](https://github.com/Sachith-02/TaskLang)** — A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency…
 - 🕒 Most recently updated project: **[Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe)** · May 12, 2026
-- ⚡ Latest public activity: ⭐ Starred [`Sachith-02/Sustain-Insight---front-end`](https://github.com/Sachith-02/Sustain-Insight---front-end) · May 12, 2026
+- ⚡ Latest public activity: ✨ Created branch `Docker-Tool-Integration` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -50,7 +50,7 @@ var sachith = new Developer(
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-13 04:10 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-13 09:18 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -86,7 +86,7 @@ var sachith = new Developer(
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-05-13 04:10 UTC** |
+| Last automation run | **2026-05-13 09:18 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
@@ -338,14 +338,14 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
+- ✨ Created **branch** `Docker-Tool-Integration` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
+- 🔀 [Merged PR #9: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
+- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `dev` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
+- 🔀 [Opened PR #9: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
 - ⭐ Starred [`Sachith-02/Sustain-Insight---front-end`](https://github.com/Sachith-02/Sustain-Insight---front-end) · May 12, 2026
 - ⭐ Starred [`Sachith-02/Yahtzee-Retro-Deluxe`](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) · May 12, 2026
-- ⭐ Starred [`Sachith-02/Distributed_Systems_Group_30`](https://github.com/Sachith-02/Distributed_Systems_Group_30) · May 12, 2026
-- ⭐ Starred [`Sachith-02/Smart_Agricultural_Platform_Frontend`](https://github.com/Sachith-02/Smart_Agricultural_Platform_Frontend) · May 12, 2026
-- ⭐ Starred [`Sachith-02/Smart_Agricultural_Platform_Backend`](https://github.com/Sachith-02/Smart_Agricultural_Platform_Backend) · May 12, 2026
-- ⭐ Starred [`Sachith-02/TaskLang`](https://github.com/Sachith-02/TaskLang) · May 12, 2026
 
-<sub>Last activity refresh: **2026-05-13 04:10 UTC**</sub>
+<sub>Last activity refresh: **2026-05-13 09:18 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
