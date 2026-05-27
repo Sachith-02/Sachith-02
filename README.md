@@ -33,10 +33,10 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 
 > Building secure APIs, clean backend systems, and automation-first developer tools.
 
-- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **11 stars**, **0 forks**, and **4 followers**
+- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **15 stars**, **0 forks**, and **5 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
-- 🕒 Most recently updated project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** · May 20, 2026
+- 🕒 Most recently updated project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** · May 27, 2026
 - ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Knowledge-Studio) to `main` in [`Sachith-02/Knowledge-Studio`](https://github.com/Sachith-02/Knowledge-Studio) · May 17, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
@@ -45,12 +45,12 @@ record Developer(String focus, String githubSignal, String currentProject) {}
 
 var sachith = new Developer(
     "Java 21 and Spring Boot 3 production backend design",
-    "4 original projects · 11 stars · 4 followers · 4 following",
+    "4 original projects · 15 stars · 5 followers · 6 following",
     "LibraCore"
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-26 20:25 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-05-27 04:45 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -82,15 +82,15 @@ var sachith = new Developer(
 | Public repositories scanned | **10** |
 | Original projects | **5** |
 | Forked projects | **5** |
-| Total stars | **28** |
+| Total stars | **38** |
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-05-26 20:25 UTC** |
+| Last automation run | **2026-05-27 04:45 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Total_Stars-28-38bdf8?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Total_Stars-38-38bdf8?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- PROFILE_SUMMARY_END -->
 
@@ -209,7 +209,7 @@ var sachith = new Developer(
 
 LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST AP…
 
-<sub>⭐ 2 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>80.0</b> · original, documented, Java, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>84.0</b> · original, documented, Java, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -220,7 +220,7 @@ LibraCore is a secure, production‑style library and asset management backend b
 
 A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>69.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>73.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ A modern Streamlit-based RAG app for document upload, semantic search, grounded 
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>72.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -244,7 +244,7 @@ A DSL for task scheduling — Flex lexer + Bison parser with dependency validati
 
 A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>66.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>70.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring Boot 3 and MySQL 8. It exposes a REST AP…
 
-<sub>⭐ 2 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>80.0</b> · original, documented, Java, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>84.0</b> · original, documented, Java, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -282,7 +282,7 @@ LibraCore is a secure, production‑style library and asset management backend b
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>72.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ A DSL for task scheduling — Flex lexer + Bison parser with dependency validati
 
 A modern Streamlit-based RAG app for document upload, semantic search, grounded Q&A, and structured summarization with persistent ChromaDB stora…
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>69.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>73.0</b> · original, documented, Python, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -306,7 +306,7 @@ A modern Streamlit-based RAG app for document upload, semantic search, grounded 
 
 A fully functional Yahtzee game developed in C, showcasing modular design, game state management, and interactive terminal gameplay. Ideal for l…
 
-<sub>⭐ 3 stars · 🍴 0 forks · 🕒 Updated May 20, 2026</sub><br/><sub>🧮 Portfolio score: <b>66.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>70.0</b> · original, documented, C, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -324,10 +324,10 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 | Repository | Language | Metadata | Score | Next improvement |
 |---|---|---|---:|---|
-| [LibraCore](https://github.com/Sachith-02/LibraCore) | Java | ✅ description · `0` topics | **80.0** | Add GitHub topics |
-| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **72.0** | Add GitHub topics |
-| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **69.0** | Add GitHub topics |
-| [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **66.0** | Add GitHub topics |
+| [LibraCore](https://github.com/Sachith-02/LibraCore) | Java | ✅ description · `0` topics | **84.0** | Add GitHub topics |
+| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **76.0** | Add GitHub topics |
+| [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **73.0** | Add GitHub topics |
+| [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **70.0** | Add GitHub topics |
 
 <!-- REPO_HEALTH_END -->
 
@@ -345,7 +345,7 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 - 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `dev` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
 - 🔀 [Opened PR #9: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
 
-<sub>Last activity refresh: **2026-05-26 20:25 UTC**</sub>
+<sub>Last activity refresh: **2026-05-27 04:45 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
