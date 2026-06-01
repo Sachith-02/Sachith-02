@@ -36,8 +36,8 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 - 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **15 stars**, **0 forks**, and **5 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
-- 🕒 Most recently updated project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** · May 27, 2026
-- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 01, 2026
+- 🕒 Most recently updated project: **[TaskLang](https://github.com/Sachith-02/TaskLang)** · Jun 01, 2026
+- ⚡ Latest public activity: 🔀 [Reopened PR #12: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -50,7 +50,7 @@ var sachith = new Developer(
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-01 08:45 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-01 12:08 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -86,7 +86,7 @@ var sachith = new Developer(
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-06-01 08:45 UTC** |
+| Last automation run | **2026-06-01 12:08 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
@@ -233,7 +233,7 @@ A modern Streamlit-based RAG app for document upload, semantic search, grounded 
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -282,7 +282,7 @@ LibraCore is a secure, production‑style library and asset management backend b
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated May 27, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -338,14 +338,14 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
-- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 01, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 31, 2026
-- ✨ Created **branch** `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 31, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Knowledge-Studio) to `main` in [`Sachith-02/Knowledge-Studio`](https://github.com/Sachith-02/Knowledge-Studio) · May 17, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Knowledge-Studio) to `main` in [`Sachith-02/Knowledge-Studio`](https://github.com/Sachith-02/Knowledge-Studio) · May 17, 2026
-- ✨ Created **branch** `Docker-Tool-Integration` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
+- 🔀 [Reopened PR #12: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
+- 🔀 [Closed PR #12: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
+- 🔀 [Closed PR #11: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
+- 🔀 [Opened PR #12: pull request](https://github.com/Sachith-02/Sachith-02) in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
+- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Sachith-02) to `ai-cicd/setup-pipeline-20260601113028` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
+- ✨ Created **branch** `ai-cicd/setup-pipeline-20260601113028` in [`Sachith-02/Sachith-02`](https://github.com/Sachith-02/Sachith-02) · Jun 01, 2026
 
-<sub>Last activity refresh: **2026-06-01 08:45 UTC**</sub>
+<sub>Last activity refresh: **2026-06-01 12:08 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
