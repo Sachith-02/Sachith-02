@@ -37,7 +37,7 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
 - 🕒 Most recently updated project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** · May 27, 2026
-- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 31, 2026
+- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 01, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -50,7 +50,7 @@ var sachith = new Developer(
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-01 05:13 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-01 08:45 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -86,7 +86,7 @@ var sachith = new Developer(
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-06-01 05:13 UTC** |
+| Last automation run | **2026-06-01 08:45 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
@@ -338,14 +338,14 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
+- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 01, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 31, 2026
 - ✨ Created **branch** `feature/cicd-failure-model` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 31, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Knowledge-Studio) to `main` in [`Sachith-02/Knowledge-Studio`](https://github.com/Sachith-02/Knowledge-Studio) · May 17, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Knowledge-Studio) to `main` in [`Sachith-02/Knowledge-Studio`](https://github.com/Sachith-02/Knowledge-Studio) · May 17, 2026
 - ✨ Created **branch** `Docker-Tool-Integration` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
-- 🔀 [Merged PR #9: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · May 13, 2026
 
-<sub>Last activity refresh: **2026-06-01 05:13 UTC**</sub>
+<sub>Last activity refresh: **2026-06-01 08:45 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
