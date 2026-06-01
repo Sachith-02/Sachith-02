@@ -25,4 +25,13 @@ jobs:
 
       - name: Run tests
         run: |
-          if [ -d tests ]; then pytest; else echo "No tests folder found."; fi
+          if [ -d tests ]; then
+            pytest || status=$?
+            if [ "${status:-0}" -eq 5 ]; then
+              echo "No pytest tests collected."
+              exit 0
+            fi
+            exit "${status:-0}"
+          else
+            echo "No tests folder found."
+          fi
