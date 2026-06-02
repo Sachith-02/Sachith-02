@@ -31,13 +31,13 @@
 
 I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distributed Systems** from **Sri Lanka**. This section refreshes automatically from my public GitHub account, repository metadata, languages, and recent activity.
 
-> Building secure APIs, clean backend systems, and automation-first developer tools.
+> BSc(Hons) in Computer Science - Undergraduate @Sllit
 
-- 🔭 GitHub signal: **10 public repositories**, **4 original projects**, **15 stars**, **0 forks**, and **5 followers**
+- 🔭 GitHub signal: **11 public repositories**, **5 original projects**, **15 stars**, **0 forks**, and **5 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
-- 🕒 Most recently updated project: **[TaskLang](https://github.com/Sachith-02/TaskLang)** · Jun 01, 2026
-- ⚡ Latest public activity: 🔀 [Merged PR #18: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
+- 🕒 Most recently updated project: **[devops-assistant-test-projects](https://github.com/Sachith-02/devops-assistant-test-projects)** · Jun 02, 2026
+- ⚡ Latest public activity: ✨ Created branch `feature/desktop-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -45,12 +45,12 @@ record Developer(String focus, String githubSignal, String currentProject) {}
 
 var sachith = new Developer(
     "Java 21 and Spring Boot 3 production backend design",
-    "4 original projects · 15 stars · 5 followers · 6 following",
+    "5 original projects · 15 stars · 5 followers · 5 following",
     "LibraCore"
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-02 10:53 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-02 16:53 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -79,17 +79,17 @@ var sachith = new Developer(
 
 | Metric | Value |
 |---|---:|
-| Public repositories scanned | **10** |
-| Original projects | **5** |
+| Public repositories scanned | **11** |
+| Original projects | **6** |
 | Forked projects | **5** |
 | Total stars | **38** |
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-06-02 10:53 UTC** |
+| Last automation run | **2026-06-02 16:53 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
-![Repos](https://img.shields.io/badge/Public_Repos-10-0d1117?style=for-the-badge&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/Public_Repos-11-0d1117?style=for-the-badge&logo=github&logoColor=white)
 ![Stars](https://img.shields.io/badge/Total_Stars-38-38bdf8?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- PROFILE_SUMMARY_END -->
@@ -150,14 +150,14 @@ var sachith = new Developer(
 
 > Automatically calculated from repository language byte data.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) `████████░░░░░░░░░░` **42.8%**  
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) `████░░░░░░░░░░░░░░` **24.0%**  
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) `███░░░░░░░░░░░░░░░` **16.7%**  
-![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) `██░░░░░░░░░░░░░░░░` **11.3%**  
-![Lex](https://img.shields.io/badge/-Lex-555555?style=flat-square&logoColor=white) `░░░░░░░░░░░░░░░░░░` **2.0%**  
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white&logoColor=white) `████████░░░░░░░░░░` **42.9%**  
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white&logoColor=white) `████░░░░░░░░░░░░░░` **23.1%**  
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white&logoColor=white) `███░░░░░░░░░░░░░░░` **16.1%**  
+![Yacc](https://img.shields.io/badge/-Yacc-555555?style=flat-square&logoColor=white) `██░░░░░░░░░░░░░░░░` **10.8%**  
+![Lex](https://img.shields.io/badge/-Lex-555555?style=flat-square&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.9%**  
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&logoColor=black) `░░░░░░░░░░░░░░░░░░` **1.8%**  
 ![Makefile](https://img.shields.io/badge/-Makefile-555555?style=flat-square&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.6%**  
-![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.6%**  
-![Dockerfile](https://img.shields.io/badge/-Dockerfile-2496ED?style=flat-square&logo=docker&logoColor=white&logoColor=white) `░░░░░░░░░░░░░░░░░░` **0.2%**
+![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white&logoColor=white) `░░░░░░░░░░░░░░░░░░` **1.5%**
 
 <!-- LANGUAGE_SUMMARY_END -->
 
@@ -310,6 +310,20 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🔹 <a href="https://github.com/Sachith-02/devops-assistant-test-projects">devops-assistant-test-projects</a></h3>
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white&logoColor=black) ![Stars](https://img.shields.io/github/stars/Sachith-02/devops-assistant-test-projects?style=flat-square&color=38bdf8&labelColor=0d1117) ![Forks](https://img.shields.io/github/forks/Sachith-02/devops-assistant-test-projects?style=flat-square&color=94a3b8&labelColor=0d1117) ![latest release](https://img.shields.io/github/v/release/Sachith-02/devops-assistant-test-projects?include_prereleases&label=latest%20release&logo=github&style=flat-square&color=38bdf8&labelColor=0d1117)
+
+No description provided.
+
+<sub>⭐ 0 stars · 🍴 0 forks · 🕒 Updated Jun 02, 2026</sub><br/><sub>🧮 Portfolio score: <b>42.0</b> · original, JavaScript, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 </div>
 
@@ -328,6 +342,7 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 | [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **76.0** | Add GitHub topics |
 | [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **73.0** | Add GitHub topics |
 | [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **70.0** | Add GitHub topics |
+| [devops-assistant-test-projects](https://github.com/Sachith-02/devops-assistant-test-projects) | JavaScript | ⚠️ description · `0` topics | **42.0** | Add a clear project description |
 
 <!-- REPO_HEALTH_END -->
 
@@ -338,14 +353,14 @@ A fully functional Yahtzee game developed in C, showcasing modular design, game 
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
+- ✨ Created **branch** `feature/desktop-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
+- ✨ Created **branch** `main` in [`Sachith-02/devops-assistant-test-projects`](https://github.com/Sachith-02/devops-assistant-test-projects) · Jun 02, 2026
 - 🔀 [Merged PR #18: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 - 🔀 [Opened PR #18: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/final-upgrades` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/final-upgrades` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/final-upgrades` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- ✨ Created **branch** `feature/final-upgrades` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 
-<sub>Last activity refresh: **2026-06-02 10:53 UTC**</sub>
+<sub>Last activity refresh: **2026-06-02 16:53 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
