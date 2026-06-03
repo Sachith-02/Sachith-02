@@ -33,11 +33,11 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 
 > BSc(Hons) in Computer Science - Undergraduate @Sllit
 
-- 🔭 GitHub signal: **11 public repositories**, **5 original projects**, **15 stars**, **0 forks**, and **5 followers**
+- 🔭 GitHub signal: **12 public repositories**, **5 original projects**, **15 stars**, **0 forks**, and **5 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
 - 🕒 Most recently updated project: **[devops-assistant-test-projects](https://github.com/Sachith-02/devops-assistant-test-projects)** · Jun 02, 2026
-- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/desktop-&-mobile-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
+- ⚡ Latest public activity: 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `main` in [`Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
 - 🎯 Current focus: Java 21 and Spring Boot 3 production backend design; JWT authentication, role-based access control, and REST API security; Dockerized deployment, CI/CD, and GitHub Actions automation
 
 ```java
@@ -50,7 +50,7 @@ var sachith = new Developer(
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-03 11:21 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-03 17:13 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -79,18 +79,18 @@ var sachith = new Developer(
 
 | Metric | Value |
 |---|---:|
-| Public repositories scanned | **11** |
+| Public repositories scanned | **12** |
 | Original projects | **6** |
-| Forked projects | **5** |
-| Total stars | **38** |
+| Forked projects | **6** |
+| Total stars | **39** |
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-06-03 11:21 UTC** |
+| Last automation run | **2026-06-03 17:13 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
-![Repos](https://img.shields.io/badge/Public_Repos-11-0d1117?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Total_Stars-38-38bdf8?style=for-the-badge&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/Public_Repos-12-0d1117?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Total_Stars-39-38bdf8?style=for-the-badge&logo=github&logoColor=white)
 
 <!-- PROFILE_SUMMARY_END -->
 
@@ -353,14 +353,14 @@ No description provided.
 
 > Auto-updated from GitHub public events. Private activity cannot appear here.
 
+- 🧩 [Pushed 0 commits](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `main` in [`Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
+- 🍴 [Forked repository](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) from [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
+- 🔀 [Merged PR #21: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
+- 🔀 [Opened PR #21: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
+- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/desktop-&-mobile-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
 - 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/desktop-&-mobile-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- 🧩 [Pushed 0 commits](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) to `feature/mobile-app-capacitor` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- ✨ Created **branch** `feature/mobile-app-capacitor` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- ✨ Created **branch** `feature/desktop-mode` in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
-- ✨ Created **branch** `main` in [`Sachith-02/devops-assistant-test-projects`](https://github.com/Sachith-02/devops-assistant-test-projects) · Jun 02, 2026
-- 🔀 [Merged PR #18: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 02, 2026
 
-<sub>Last activity refresh: **2026-06-03 11:21 UTC**</sub>
+<sub>Last activity refresh: **2026-06-03 17:13 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
