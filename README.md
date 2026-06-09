@@ -50,7 +50,7 @@ var sachith = new Developer(
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-09 10:01 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-06-09 15:25 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -86,7 +86,7 @@ var sachith = new Developer(
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-06-09 10:01 UTC** |
+| Last automation run | **2026-06-09 15:25 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-12-0d1117?style=for-the-badge&logo=github&logoColor=white)
@@ -233,7 +233,7 @@ A modern Streamlit-based RAG app for document upload, semantic search, grounded 
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>72.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -282,7 +282,7 @@ LibraCore is a secure, production‑style library and asset management backend b
 
 A DSL for task scheduling — Flex lexer + Bison parser with dependency validation and circular dependency detection
 
-<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>76.0</b> · original, documented, Yacc, active this week</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
+<sub>⭐ 4 stars · 🍴 0 forks · 🕒 Updated Jun 01, 2026</sub><br/><sub>🧮 Portfolio score: <b>72.0</b> · original, documented, Yacc, active this month</sub><br/><sub>🏷️ Add GitHub topics to improve this card. See <code>docs/REPOSITORY_TOPICS.md</code>.</sub>
 
 </td>
 </tr>
@@ -339,7 +339,7 @@ No description provided.
 | Repository | Language | Metadata | Score | Next improvement |
 |---|---|---|---:|---|
 | [LibraCore](https://github.com/Sachith-02/LibraCore) | Java | ✅ description · `0` topics | **80.0** | Add GitHub topics |
-| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **76.0** | Add GitHub topics |
+| [TaskLang](https://github.com/Sachith-02/TaskLang) | Yacc | ✅ description · `0` topics | **72.0** | Add GitHub topics |
 | [Knowledge-Studio](https://github.com/Sachith-02/Knowledge-Studio) | Python | ✅ description · `0` topics | **69.0** | Add GitHub topics |
 | [Yahtzee-Retro-Deluxe](https://github.com/Sachith-02/Yahtzee-Retro-Deluxe) | C | ✅ description · `0` topics | **66.0** | Add GitHub topics |
 | [devops-assistant-test-projects](https://github.com/Sachith-02/devops-assistant-test-projects) | JavaScript | ⚠️ description · `0` topics | **42.0** | Add a clear project description |
@@ -360,7 +360,7 @@ No description provided.
 - 🍴 [Forked repository](https://github.com/Sachith-02/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) from [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
 - 🔀 [Merged PR #21: pull request](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) in [`Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI`](https://github.com/Malithi2001/Autonomous-Infrastructure-Provisioning-and-Delivery-via-Agentic-AI) · Jun 03, 2026
 
-<sub>Last activity refresh: **2026-06-09 10:01 UTC**</sub>
+<sub>Last activity refresh: **2026-06-09 15:25 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
