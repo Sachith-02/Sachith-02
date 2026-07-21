@@ -33,7 +33,7 @@ I am **Sachith Asmadala**, a **Backend Engineer \| Java · Spring Boot · Distri
 
 > BSc(Hons) in Computer Science - Undergraduate @Sllit
 
-- 🔭 GitHub signal: **12 public repositories**, **5 original projects**, **15 stars**, **0 forks**, and **6 followers**
+- 🔭 GitHub signal: **12 public repositories**, **5 original projects**, **15 stars**, **0 forks**, and **7 followers**
 - 🧠 Main language signal: **Python, C, Java, Yacc**
 - 🚀 Strongest active project: **[LibraCore](https://github.com/Sachith-02/LibraCore)** — LibraCore is a secure, production‑style library and asset management backend built with Java 21, Spring…
 - 🕒 Most recently updated project: **[devops-assistant-test-projects](https://github.com/Sachith-02/devops-assistant-test-projects)** · Jun 02, 2026
@@ -45,12 +45,12 @@ record Developer(String focus, String githubSignal, String currentProject) {}
 
 var sachith = new Developer(
     "Java 21 and Spring Boot 3 production backend design",
-    "5 original projects · 15 stars · 6 followers · 6 following",
+    "5 original projects · 15 stars · 7 followers · 6 following",
     "LibraCore"
 );
 ```
 
-<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-07-21 03:40 UTC**.</sub>
+<sub>🤖 Auto-updated by GitHub Actions from the GitHub API. Last generated: **2026-07-21 08:42 UTC**.</sub>
 
 <!-- ABOUT_ME_END -->
 
@@ -86,7 +86,7 @@ var sachith = new Developer(
 | Total forks | **0** |
 | Most used languages | **Python, C, Java, Yacc, Lex** |
 | Automation mode | **Daily schedule + manual workflow dispatch** |
-| Last automation run | **2026-07-21 03:40 UTC** |
+| Last automation run | **2026-07-21 08:42 UTC** |
 
 ![Automation](https://img.shields.io/badge/README-Auto_Updated-38bdf8?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Repos](https://img.shields.io/badge/Public_Repos-12-0d1117?style=for-the-badge&logo=github&logoColor=white)
@@ -355,7 +355,7 @@ No description provided.
 
 No recent public activity detected by the GitHub Events API.
 
-<sub>Last activity refresh: **2026-07-21 03:40 UTC**</sub>
+<sub>Last activity refresh: **2026-07-21 08:42 UTC**</sub>
 
 <!-- ACTIVITY_END -->
 
